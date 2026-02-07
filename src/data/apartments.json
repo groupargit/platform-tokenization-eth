@@ -1,0 +1,85 @@
+{
+  "apt_1001": {
+    "colorCode": ["#3F51B5", "#81D4FA", "#F5E8C7", "#CFD8DC"],
+    "name": "Índigo Celeste",
+    "concept": "La Historia de tu Nuevo Equilibrio"
+  },
+  "apt_1002": {
+    "colorCode": ["#00BFA5", "#E0F2F1", "#FF6B6B", "#F5F5F5"],
+    "name": "Verde Aether",
+    "concept": "Casa de la Vitalidad Consciente",
+    "alternative_options": {
+      "option_1": {
+        "name": "Turquesa Vital",
+        "colorCode": ["#00BFA5", "#E0F2F1", "#FF6B6B", "#F5F5F5"],
+        "description": "Turquesa vibrante con acento coral - Moderno y energético"
+      },
+      "option_2": {
+        "name": "Esmeralda Fresca",
+        "colorCode": ["#26A69A", "#B2DFDB", "#FFA726", "#F1F8E9"],
+        "description": "Verde esmeralda con toque naranja - Fresco y dinámico"
+      },
+      "option_3": {
+        "name": "Menta Revitalizante",
+        "colorCode": ["#4DB6AC", "#C8E6C9", "#81C784", "#F1F8E9"],
+        "description": "Tonos verdes menta - Sereno y revitalizante"
+      },
+      "option_4": {
+        "name": "Jade Moderno",
+        "colorCode": ["#009688", "#B2DFDB", "#FFC107", "#ECEFF1"],
+        "description": "Jade profundo con acento dorado - Sofisticado y vital"
+      },
+      "option_5": {
+        "name": "Verde Limón",
+        "colorCode": ["#66BB6A", "#DCEDC8", "#AED581", "#F9FBE7"],
+        "description": "Verde lima brillante - Alegre y energético"
+      }
+    }
+  },
+  "local_103": {
+    "colorCode": ["#D4AF37", "#FAF9F5", "#1C1C1C", "#E2E0DC"],
+    "name": "Áureo",
+    "concept": "Local de la Prosperidad Creativa"
+  },
+  "apt_1003": {
+    "colorCode": ["#FF8A80", "#B3E5FC", "#F8BBD0", "#F5F5F5"],
+    "name": "Coral Sereno",
+    "concept": "Hogar del Bienestar Emocional"
+  },
+  "apt_1004": {
+    "colorCode": ["#9C27B0", "#CE93D8", "#F48FB1", "#E1BEE7"],
+    "name": "Lavanda Soñadora",
+    "concept": "Espacio de Creatividad y Sueños"
+  },
+  "apt_1005": {
+    "colorCode": ["#8D6E63", "#D7CCC8", "#A1887F", "#EFEBE9"],
+    "name": "Tierra Ancestral",
+    "concept": "Raíces y Tradición Moderna"
+  },
+  "apt_1006": {
+    "colorCode": ["#1565C0", "#4DD0E1", "#81D4FA", "#E0F7FA"],
+    "name": "Océano Profundo",
+    "concept": "Serenidad y Profundidad Mental"
+  },
+  "apt_1007": {
+    "colorCode": ["#F8BBD0", "#FFFFFF", "#A5D6A7", "#FCE4EC"],
+    "name": "Sakura Blossom",
+    "concept": "Renovación y Belleza Efímera"
+  },
+  "apt_1008": {
+    "colorCode": ["#FF6F00", "#FFB74D", "#FFF176", "#FFF8E1"],
+    "name": "Amber Glow",
+    "concept": "Energía y Vitalidad Matutina"
+  },
+  "apt_1009": {
+    "colorCode": ["#1A237E", "#B0BEC5", "#6A1B9A", "#ECEFF1"],
+    "name": "Midnight Elegance",
+    "concept": "Sofisticación Nocturna"
+  },
+  "apt_1010": {
+    "colorCode": ["#2E7D32", "#8D6E63", "#C5E1A5", "#F1F8E9"],
+    "name": "Forest Harmony",
+    "concept": "Conexión Natural y Equilibrio"
+  }
+}
+

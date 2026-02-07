@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSP: permite eval/Function para dependencias y DevTools en dev; en producción puedes quitar 'unsafe-eval' si no hay violaciones -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' https:;">
+    <title>Casa Color - El futuro de la vivienda inicia aquí</title>
+    <meta name="description" content="Casa Color - Sistema de gestión de edificios inteligentes con integración IoT, autenticación segura" />
+    <meta name="author" content="Groupar S.A.S" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/groupar-logo.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Casa Color - El futuro de la vivienda inicia aquí" />
+    <meta property="og:description" content="Sistema de gestión de edificios inteligentes con integración IoT y diseño basado en psicología del color" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/casa-color-logo.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Casa Color" />
+    <meta name="twitter:description" content="Sistema de gestión de edificios inteligentes con integración IoT" />
+    <meta name="twitter:image" content="/casa-color-logo.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      // Remove Lovable elements immediately before React loads
+      (function() {
+        function removeLovableElements() {
+          // Remove elements with data-lovable attribute
+          document.querySelectorAll('[data-lovable]').forEach(el => el.remove());
+          
+          // Remove elements containing "Edit with" or "Lovable" text
+          const allElements = document.querySelectorAll('*');
+          allElements.forEach(el => {
+            const text = el.textContent || '';
+            if ((text.includes('Edit with') || text.includes('Lovable')) && 
+                (el.tagName === 'BUTTON' || el.tagName === 'DIV' || el.tagName === 'A' || el.tagName === 'SPAN')) {
+              el.remove();
+            }
+          });
+          
+          // Remove iframes or scripts from lovable
+          document.querySelectorAll('iframe[src*="lovable"], script[src*="lovable"]').forEach(el => el.remove());
+        }
+        
+        // Run immediately
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', removeLovableElements);
+        } else {
+          removeLovableElements();
+        }
+        
+        // Also run periodically to catch dynamically injected elements
+        setInterval(removeLovableElements, 500);
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

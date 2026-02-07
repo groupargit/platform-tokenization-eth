@@ -1,0 +1,264 @@
+{
+  "colorPalettes": {
+    "apt_1001": {
+      "name": "Índigo Celeste",
+      "concept": "La Historia de tu Nuevo Equilibrio",
+      "psychology": {
+        "primary": "Indigo representa sabiduría, intuición y profundidad. Promueve la calma y la concentración.",
+        "secondary": "Celeste evoca serenidad, claridad mental y comunicación fluida. Inspira confianza y apertura.",
+        "accent": "Beige crea calidez y estabilidad. Genera sensación de hogar y comodidad.",
+        "overall": "Esta paleta fomenta equilibrio emocional, tranquilidad y un ambiente propicio para la reflexión y el descanso."
+      },
+      "colorCode": [
+        "#3F51B5",
+        "#81D4FA",
+        "#F5E8C7",
+        "#CFD8DC"
+      ],
+      "recommendedUse": {
+        "primary": "Títulos, elementos importantes, botones principales",
+        "secondary": "Acentos, badges, estados activos",
+        "accent": "Fondos de tarjetas, elementos destacados",
+        "background": "Fondos generales, contenedores"
+      }
+    },
+    "apt_1002": {
+      "name": "Verde Aether",
+      "concept": "Casa de la Vitalidad Consciente",
+      "psychology": {
+        "primary": "Verde esmeralda representa crecimiento, renovación y armonía con la naturaleza. Promueve bienestar físico y mental.",
+        "secondary": "Blanco nieve evoca pureza, limpieza y espacio. Crea sensación de amplitud y frescura.",
+        "accent": "Verde bosque profundo aporta estabilidad y conexión con la tierra. Genera seguridad y solidez.",
+        "overall": "Esta paleta inspira vitalidad, conexión con la naturaleza, salud y un estilo de vida consciente y sostenible."
+      },
+      "colorCode": [
+        "#7CC9A4",
+        "#F7F9F8",
+        "#2F5D50",
+        "#D7C8A2"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos principales, acciones positivas, estados de éxito",
+        "secondary": "Fondos limpios, espacios negativos, contraste",
+        "accent": "Elementos de apoyo, profundidad visual",
+        "background": "Fondos cálidos, elementos secundarios"
+      }
+    },
+    "local_103": {
+      "name": "Áureo",
+      "concept": "Local de la Prosperidad Creativa",
+      "psychology": {
+        "primary": "Dorado representa prosperidad, éxito y creatividad. Inspira ambición y logro de metas.",
+        "secondary": "Beige cálido evoca elegancia, sofisticación y estabilidad. Crea ambiente profesional.",
+        "accent": "Negro profundo aporta contraste y autoridad. Genera sensación de lujo y exclusividad.",
+        "overall": "Esta paleta transmite prosperidad, creatividad empresarial, éxito profesional y un ambiente de trabajo inspirador."
+      },
+      "colorCode": [
+        "#D4AF37",
+        "#FAF9F5",
+        "#1C1C1C",
+        "#E2E0DC"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos premium, destacados, llamadas a la acción",
+        "secondary": "Fondos elegantes, espacios profesionales",
+        "accent": "Contraste fuerte, elementos de lujo",
+        "background": "Fondos neutros, elementos de soporte"
+      }
+    },
+    "apt_1003": {
+      "name": "Coral Sereno",
+      "concept": "Hogar del Bienestar Emocional",
+      "psychology": {
+        "primary": "Coral suave representa calidez emocional, compasión y conexión humana. Promueve relaciones armoniosas.",
+        "secondary": "Azul cielo evoca paz mental, claridad y serenidad. Reduce estrés y ansiedad.",
+        "accent": "Rosa polvo aporta ternura y suavidad. Crea ambiente acogedor y relajante.",
+        "overall": "Esta paleta fomenta bienestar emocional, relaciones saludables y un espacio donde las emociones fluyen naturalmente."
+      },
+      "colorCode": [
+        "#FF8A80",
+        "#B3E5FC",
+        "#F8BBD0",
+        "#F5F5F5"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos cálidos, interacciones sociales, estados positivos",
+        "secondary": "Fondos serenos, elementos de calma",
+        "accent": "Detalles suaves, elementos decorativos",
+        "background": "Fondos neutros, espacios limpios"
+      }
+    },
+    "apt_1004": {
+      "name": "Lavanda Soñadora",
+      "concept": "Espacio de Creatividad y Sueños",
+      "psychology": {
+        "primary": "Lavanda representa creatividad, imaginación y espiritualidad. Inspira innovación y pensamiento libre.",
+        "secondary": "Lila suave evoca misterio, transformación y sabiduría interior. Promueve introspección.",
+        "accent": "Rosa pálido aporta dulzura y sensibilidad. Crea ambiente onírico y acogedor.",
+        "overall": "Esta paleta estimula la creatividad, la inspiración artística y un espacio donde los sueños pueden florecer."
+      },
+      "colorCode": [
+        "#9C27B0",
+        "#CE93D8",
+        "#F48FB1",
+        "#E1BEE7"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos creativos, destacados, inspiración",
+        "secondary": "Acentos suaves, transiciones",
+        "accent": "Detalles decorativos, elementos lúdicos",
+        "background": "Fondos soñadores, espacios creativos"
+      }
+    },
+    "apt_1005": {
+      "name": "Tierra Ancestral",
+      "concept": "Raíces y Tradición Moderna",
+      "psychology": {
+        "primary": "Tierra quemada representa estabilidad, conexión con raíces y solidez. Genera sensación de pertenencia.",
+        "secondary": "Arena dorada evoca calidez, tradición y autenticidad. Crea ambiente acogedor.",
+        "accent": "Terracota aporta vitalidad y energía terrenal. Conecta con la naturaleza.",
+        "overall": "Esta paleta transmite estabilidad, conexión con tradiciones, autenticidad y un hogar con historia y carácter."
+      },
+      "colorCode": [
+        "#8D6E63",
+        "#D7CCC8",
+        "#A1887F",
+        "#EFEBE9"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos sólidos, estructuras, fundamentos",
+        "secondary": "Fondos cálidos, espacios acogedores",
+        "accent": "Detalles terrosos, elementos naturales",
+        "background": "Fondos neutros, espacios amplios"
+      }
+    },
+    "apt_1006": {
+      "name": "Océano Profundo",
+      "concept": "Serenidad y Profundidad Mental",
+      "psychology": {
+        "primary": "Azul marino representa profundidad, confianza y estabilidad emocional. Promueve calma y reflexión.",
+        "secondary": "Turquesa evoca claridad mental, comunicación y frescura. Inspira renovación.",
+        "accent": "Azul cielo aporta ligereza y esperanza. Crea sensación de infinito y posibilidades.",
+        "overall": "Esta paleta fomenta serenidad profunda, claridad mental, comunicación fluida y un ambiente de paz duradera."
+      },
+      "colorCode": [
+        "#1565C0",
+        "#4DD0E1",
+        "#81D4FA",
+        "#E0F7FA"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos importantes, estructuras, confianza",
+        "secondary": "Acentos frescos, renovación",
+        "accent": "Detalles ligeros, esperanza",
+        "background": "Fondos serenos, espacios tranquilos"
+      }
+    },
+    "apt_1007": {
+      "name": "Sakura Blossom",
+      "concept": "Renovación y Belleza Efímera",
+      "psychology": {
+        "primary": "Rosa sakura representa renovación, belleza temporal y apreciación del momento presente.",
+        "secondary": "Blanco puro evoca pureza, nuevos comienzos y simplicidad elegante.",
+        "accent": "Verde menta aporta frescura y crecimiento. Simboliza nuevos brotes.",
+        "overall": "Esta paleta inspira apreciación de la belleza, renovación constante y vivir el presente con plenitud."
+      },
+      "colorCode": [
+        "#F8BBD0",
+        "#FFFFFF",
+        "#A5D6A7",
+        "#FCE4EC"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos delicados, momentos especiales",
+        "secondary": "Fondos puros, espacios limpios",
+        "accent": "Detalles frescos, crecimiento",
+        "background": "Fondos suaves, espacios serenos"
+      }
+    },
+    "apt_1008": {
+      "name": "Amber Glow",
+      "concept": "Energía y Vitalidad Matutina",
+      "psychology": {
+        "primary": "Ámbar representa energía, entusiasmo y optimismo. Inspira acción y dinamismo.",
+        "secondary": "Naranja suave evoca creatividad, sociabilidad y calidez humana.",
+        "accent": "Amarillo dorado aporta alegría, inteligencia y claridad mental.",
+        "overall": "Esta paleta estimula energía positiva, creatividad activa y un ambiente lleno de vitalidad y entusiasmo."
+      },
+      "colorCode": [
+        "#FF6F00",
+        "#FFB74D",
+        "#FFF176",
+        "#FFF8E1"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos energéticos, acciones, dinamismo",
+        "secondary": "Acentos cálidos, sociabilidad",
+        "accent": "Detalles brillantes, alegría",
+        "background": "Fondos luminosos, espacios activos"
+      }
+    },
+    "apt_1009": {
+      "name": "Midnight Elegance",
+      "concept": "Sofisticación Nocturna",
+      "psychology": {
+        "primary": "Azul medianoche representa sofisticación, profundidad y elegancia. Promueve introspección nocturna.",
+        "secondary": "Plata evoca modernidad, tecnología y precisión. Crea contraste elegante.",
+        "accent": "Púrpura profundo aporta misterio, creatividad y lujo.",
+        "overall": "Esta paleta transmite sofisticación, elegancia moderna y un ambiente propicio para la reflexión nocturna y la creatividad."
+      },
+      "colorCode": [
+        "#1A237E",
+        "#B0BEC5",
+        "#6A1B9A",
+        "#ECEFF1"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos sofisticados, estructuras elegantes",
+        "secondary": "Acentos modernos, tecnología",
+        "accent": "Detalles de lujo, creatividad",
+        "background": "Fondos neutros, espacios elegantes"
+      }
+    },
+    "apt_1010": {
+      "name": "Forest Harmony",
+      "concept": "Conexión Natural y Equilibrio",
+      "psychology": {
+        "primary": "Verde bosque representa equilibrio, crecimiento y conexión con la naturaleza. Promueve armonía.",
+        "secondary": "Marrón tierra evoca estabilidad, solidez y conexión con raíces.",
+        "accent": "Verde menta aporta frescura y renovación. Simboliza nuevos comienzos.",
+        "overall": "Esta paleta fomenta conexión con la naturaleza, equilibrio vital y un ambiente donde la vida florece naturalmente."
+      },
+      "colorCode": [
+        "#2E7D32",
+        "#8D6E63",
+        "#C5E1A5",
+        "#F1F8E9"
+      ],
+      "recommendedUse": {
+        "primary": "Elementos naturales, crecimiento, estabilidad",
+        "secondary": "Fondos terrosos, solidez",
+        "accent": "Detalles frescos, renovación",
+        "background": "Fondos naturales, espacios equilibrados"
+      }
+    }
+  },
+  "guidelines": {
+    "contrast": {
+      "minimum": "WCAG AA: 4.5:1 para texto normal, 3:1 para texto grande",
+      "recommended": "WCAG AAA: 7:1 para texto normal, 4.5:1 para texto grande"
+    },
+    "usage": {
+      "primary": "Usar para elementos principales, títulos importantes, botones de acción primaria",
+      "secondary": "Usar para acentos, badges, estados activos, elementos de apoyo",
+      "accent": "Usar para fondos de tarjetas, elementos destacados, decoración",
+      "background": "Usar para fondos generales, contenedores, espacios negativos"
+    },
+    "accessibility": {
+      "textOnDark": "Usar color claro (#FFFFFF o variaciones) sobre fondos oscuros",
+      "textOnLight": "Usar color oscuro (#212121 o variaciones) sobre fondos claros",
+      "interactive": "Asegurar contraste suficiente en elementos interactivos"
+    }
+  }
+}
+

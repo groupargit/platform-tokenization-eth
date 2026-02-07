@@ -1,0 +1,5338 @@
+{
+  "achievements": {
+    "global": {
+      "achievement1": {
+        "achievementId": "achievement1",
+        "date": "2024-12-01",
+        "description": "Successfully completed 30 morning routines.",
+        "name": "Completed 30 Morning Routines"
+      },
+      "achievement2": {
+        "achievementId": "achievement2",
+        "date": "2024-11-20",
+        "description": "Saved a total of 100 kWh of energy.",
+        "name": "Saved 100 kWh of Energy"
+      },
+      "achievement3": {
+        "achievementId": "achievement3",
+        "date": "2024-10-15",
+        "description": "Reduced water consumption by 20% over a month.",
+        "name": "Water Saver"
+      },
+      "achievement4": {
+        "achievementId": "achievement4",
+        "date": "2024-09-30",
+        "description": "Enabled security mode every night for a month.",
+        "name": "Security Pro"
+      },
+      "achievement5": {
+        "achievementId": "achievement5",
+        "date": "2024-08-25",
+        "description": "Used all smart home features at least once.",
+        "name": "Tech Savvy"
+      },
+      "achievement6": {
+        "achievementId": "achievement6",
+        "date": "2024-07-20",
+        "description": "Maintained an average energy consumption below 15 kWh per day for a month.",
+        "name": "Eco-Friendly"
+      },
+      "achievement7": {
+        "achievementId": "achievement7",
+        "date": "2024-06-10",
+        "description": "Created and followed 5 different routines.",
+        "name": "Routine Master"
+      },
+      "achievement8": {
+        "achievementId": "achievement8",
+        "date": "2024-05-05",
+        "description": "Provided feedback on the smart home system.",
+        "name": "Feedback Giver"
+      }
+    }
+  },
+  "apartments": {
+    "apt_1001": {
+      "apartmentId": "apt_1001",
+      "apartmentNumber": "1001",
+      "automationRoutines": [
+        {
+          "enabled": true,
+          "routineId": "rt_b001_amancer_dorado"
+        },
+        {
+          "enabled": true,
+          "routineId": "rt_b001_descanso_profundo"
+        }
+      ],
+      "available": false,
+      "buildingId": "B001",
+      "colorCode": [
+        "#3F51B5",
+        "#81D4FA",
+        "#FFFFFF",
+        "#F5E8C7",
+        "#CFD8DC"
+      ],
+      "concept": "Casa del Equilibrio Digital",
+      "contractDetails": {
+        "dayPastDue": 0,
+        "endDate": "2026-02-24T01:55:39.797Z",
+        "monthlyRent": 835000,
+        "paymentMethod": "online",
+        "startDate": "2025-02-24T01:55:39.797Z"
+      },
+      "description": "Imagina cerrar la puerta de tu espacio y sentir cómo el ruido se desvanece. Aquí, el equilibrio es tu realidad. Siente paz y tranquilidad con todos los servicios que están siempre gestionados, liberandote de las micro-preocupaciones diarias. Visualiza la luz natural en tu espacio integrado, donde tu concentración fluye sin esfuerzo. Apartaestudio con sala, Habitacion, baño, servicios incluidos (agua, gas, energia, internet, sistema de recolección de agua lluvia), acceso inteligentes y seguro",
+      "features": [
+        "Tecnología inteligente",
+        "Seguridad avanzada",
+        "Dispositivos IoT",
+        "Routinas automáticas"
+      ],
+      "images": [
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_apt_1001/Indigo-celeste.png",
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_apt_1001/apto.png",
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_apt_1001/apto2.png"
+      ],
+      "name": "Índigo Celeste",
+      "price": 835000,
+      "type": "private"
+    },
+    "apt_1002": {
+      "apartmentId": "apt_1002",
+      "apartmentNumber": "1002",
+      "automationRoutines": [
+        {
+          "enabled": false,
+          "routineId": "rt_b001_amancer_dorado"
+        },
+        {
+          "enabled": true,
+          "routineId": "rt_b001_descanso_profundo"
+        }
+      ],
+      "available": true,
+      "buildingId": "B001",
+      "colorCode": [
+        "#7CC9A4",
+        "#F7F9F8",
+        "#2F5D50",
+        "#D7C8A2",
+        "#A8B0AA"
+      ],
+      "concept": "Casa de la Vitalidad Consciente",
+      "contractDetails": {
+        "dayPastDue": 0,
+        "endDate": "2026-02-24T01:55:39.797Z",
+        "monthlyRent": 945000,
+        "paymentMethod": "online",
+        "startDate": "2025-02-24T01:55:39.797Z"
+      },
+      "description": "Apartaestudio con sala, Habitacion, baño, servicios incluidos (agua, gas, energia, internet, sistema de recolección de agua lluvia), acceso inteligentes y seguro",
+      "features": [
+        "Diseño natural",
+        "Tecnología inteligente",
+        "Seguridad avanzada",
+        "Ambiente orgánico"
+      ],
+      "images": [
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_apt_1002/apto3.png",
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_apt_1002/smart-apartments.jpg",
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_apt_1002/verde-aether.png"
+      ],
+      "name": "Verde Aether",
+      "price": 945000,
+      "type": "private"
+    },
+    "local_103": {
+      "apartmentId": "local_1003",
+      "automationRoutines": [
+        {
+          "enabled": true,
+          "routineId": "rt_b001_amancer_dorado"
+        },
+        {
+          "enabled": true,
+          "routineId": "rt_b001_descanso_profundo"
+        }
+      ],
+      "available": true,
+      "buildingId": "B001",
+      "colorCode": [
+        "#D4AF37",
+        "#FAF9F5",
+        "#1C1C1C",
+        "#E2E0DC",
+        "#6A6F73"
+      ],
+      "concept": "Local de la Prosperidad Creativa",
+      "description": "Apartaestudio con sala, Habitacion, baño, servicios incluidos (agua, gas, energia, internet, sistema de recolección de agua lluvia), acceso inteligentes y seguro",
+      "features": [
+        "Espacio comercial",
+        "Tecnología inteligente",
+        "Seguridad avanzada",
+        "Diseño profesional"
+      ],
+      "images": [
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_loc_1003/apto3.png",
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_loc_1003/apto4.png",
+        "https://storage.googleapis.com/casa-color-aparment-images/b001_loc_1003/smart-apartments.jpg"
+      ],
+      "name": "Áureo",
+      "price": "1227000-1485000",
+      "type": "commercial"
+    }
+  },
+  "bluetoothDevices": {
+    "dev_f89c873d3c77": {
+      "accessLevel": "owner",
+      "accessZones": {
+        "apt_1001": true,
+        "common": true
+      },
+      "addedDate": "2025-12-19T03:25:25.626Z",
+      "apartmentId": "apt_1001",
+      "connectionType": "BLE",
+      "createdAt": "2025-12-19T03:25:25.626Z",
+      "deviceId": "dev_f89c873d3c77",
+      "deviceName": "Igor Brainer's S23 Ultra",
+      "deviceType": "Android",
+      "geofenceEnabled": false,
+      "handsFree": true,
+      "isActive": true,
+      "lastSeen": 223,
+      "macAddress": "F8:9C:87:3D:3C:77",
+      "notificationsEnabled": true,
+      "ownerName": "Igor Ariza",
+      "proximityLevel": "far",
+      "securityLevel": "high",
+      "status": "online",
+      "trustedDevice": true,
+      "uniqueId": "f89c873d3c77e731",
+      "updatedAt": 223,
+      "version": 1
+    }
+  },
+  "buildings": {
+    "B001": {
+      "address": "Calle 8 2-77, Jamundí, Valle del Cauca, Colombia",
+      "administrativeArea": {
+        "contact": "igorariza@gmail.com",
+        "manager": "Igor Ariza",
+        "officeHours": "9am - 5pm"
+      },
+      "buildingId": "B001",
+      "buildingName": "Casa Color Jamundí",
+      "totalBadges": [
+        "earlyBird",
+        "energySaver"
+      ],
+      "totalPoints": 5000,
+      "zones": {
+        "apt_1001": {
+          "accessLevel": "owner",
+          "address": "Calle 8 2-77, Jamundí, Valle del Cauca, Colombia",
+          "apartmentNumber": "1001",
+          "authorizedUsers": [
+            "igorariza"
+          ],
+          "color": "Índigo Celeste",
+          "colorCode": "#5C7AFF",
+          "colorMeaning": "Un espacio introspectivo, tranquilo, perfecto para quien busca armonía y conexión mental-emocional. Espacio sereno, tecnológico y acogedor. Ideal para personas que valoran el silencio, la luz y la claridad.",
+          "colorPalette": {
+            "acento": {
+              "description": "Elegancia y profundidad",
+              "hex": "#1A2A6C",
+              "name": "Azul Medianoche",
+              "usage": "Detalles decorativos o muebles"
+            },
+            "complemento": {
+              "description": "Resalta la limpieza y la tecnología",
+              "hex": "#E8E9EB",
+              "name": "Gris Neblina",
+              "usage": "Columnas o detalles estructurales"
+            },
+            "natural": {
+              "description": "Da un toque orgánico y relajante",
+              "hex": "#A8BBA4",
+              "name": "Verde Salvia",
+              "usage": "Textiles y plantas"
+            },
+            "principal": {
+              "description": "Transmite calma y enfoque",
+              "hex": "#5C7AFF",
+              "name": "Índigo Celeste",
+              "usage": "Paredes"
+            }
+          },
+          "concept": "Casa del Equilibrio Digital",
+          "esp32Devices": {
+            "D003": {
+              "apartmentId": "1001",
+              "deviceId": "D003",
+              "deviceName": "ESP32_Bedroom_1001",
+              "deviceType": "bedroom",
+              "freeHeap": 52000,
+              "ipAddress": "192.168.1.102",
+              "lastHeartbeat": 1707655800000,
+              "lastSeen": "2025-02-11T10:10:00Z",
+              "location": "Dormitorio 1001",
+              "status": "online",
+              "uptime": 3600000,
+              "wifiSignal": -40,
+              "zoneId": "apt_1001"
+            },
+            "D004": {
+              "apartmentId": "1001",
+              "deviceId": "D004",
+              "deviceName": "ESP32_Kitchen_1001",
+              "deviceType": "kitchen",
+              "freeHeap": 51000,
+              "ipAddress": "192.168.1.103",
+              "lastHeartbeat": 1707656100000,
+              "lastSeen": "2025-02-11T10:15:00Z",
+              "location": "Cocina 1001",
+              "status": "online",
+              "uptime": 3600000,
+              "wifiSignal": -35,
+              "zoneId": "apt_1001"
+            }
+          },
+          "images": [
+            "https://colcentral.co/color/apto2.png",
+            "https://colcentral.co/color/apto.png",
+            "https://colcentral.co/color/apto3.png",
+            "https://colcentral.co/color/apto4.png"
+          ],
+          "iotDevices": {
+            "curtainControlLivingRoom": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:15:00Z",
+              "name": "curtainControlLivingRoom",
+              "parameters": {
+                "location": "Garden",
+                "model": "FC28"
+              },
+              "pins": {
+                "pin1": "D2",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "sensor"
+            },
+            "doorSensorMain": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:00:00Z",
+              "name": "doorSensorMain",
+              "parameters": {
+                "location": "Living Room",
+                "model": "DHT11"
+              },
+              "pins": {
+                "pin1": "D0",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "sensor"
+            },
+            "fanLivingRoom": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:45:00Z",
+              "name": "fanLivingRoom",
+              "parameters": {
+                "location": "Living Room",
+                "model": "Fan"
+              },
+              "pins": {
+                "pin1": "D8",
+                "pin2": "D9"
+              },
+              "status": "active",
+              "type": "actuator"
+            },
+            "lightControlLivingRoom": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:20:00Z",
+              "name": "lightControlLivingRoom",
+              "parameters": {
+                "lightIntensity": 75,
+                "location": "Living Room",
+                "model": "LightControl"
+              },
+              "pins": {
+                "pin1": "D3",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "actuator"
+            },
+            "pirSensorBathroom": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:30:00Z",
+              "name": "pirSensorBathroom",
+              "parameters": {
+                "location": "Bathroom",
+                "model": "PIR"
+              },
+              "pins": {
+                "pin1": "D5",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "sensor"
+            },
+            "raindropSensorGarden": {
+              "digital": false,
+              "lastValidation": "2025-02-11T10:10:00Z",
+              "name": "raindropSensorGarden",
+              "parameters": {
+                "location": "Garden",
+                "model": "Raindrop"
+              },
+              "pins": {
+                "pin1": "A0",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "sensor"
+            },
+            "relayKitchen": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:05:00Z",
+              "name": "relayKitchen",
+              "parameters": {
+                "location": "Kitchen",
+                "model": "Relay"
+              },
+              "pins": {
+                "pin1": "D1",
+                "pin2": "null"
+              },
+              "status": "inactive",
+              "type": "actuator"
+            },
+            "temperatureSensorBedroom": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:40:00Z",
+              "name": "temperatureSensorBedroom",
+              "parameters": {
+                "location": "Bedroom",
+                "model": "TemperatureSensor"
+              },
+              "pins": {
+                "pin1": "D7",
+                "pin2": "null"
+              },
+              "status": "inactive",
+              "type": "sensor"
+            },
+            "ultrasonicSensorGarage": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:25:00Z",
+              "name": "ultrasonicSensorGarage",
+              "parameters": {
+                "location": "Garage",
+                "model": "HCSR04"
+              },
+              "pins": {
+                "pin1": "D4",
+                "pin2": "null"
+              },
+              "status": "inactive",
+              "type": "sensor"
+            },
+            "waterPumpGarden": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:35:00Z",
+              "name": "waterPumpGarden",
+              "parameters": {
+                "location": "Garden",
+                "model": "WaterPump"
+              },
+              "pins": {
+                "pin1": "D6",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "actuator"
+            }
+          },
+          "routines": [
+            "morning",
+            "evening",
+            "outOfHome",
+            "security",
+            "energySaver",
+            "waterSaver",
+            "gasSaver"
+          ],
+          "security": {
+            "securityMode": {
+              "lastChecked": "2024-12-15T01:30:31.431Z",
+              "status": "enabled"
+            },
+            "smartLock": {
+              "lastChecked": "2024-12-15T01:30:31.431Z",
+              "lockHistory": [
+                {
+                  "date": "2024-12-14",
+                  "status": "locked"
+                },
+                {
+                  "date": "2024-12-13",
+                  "status": "unlocked"
+                },
+                {
+                  "date": "2024-12-12",
+                  "status": "locked"
+                }
+              ],
+              "status": "locked"
+            }
+          },
+          "state": "active",
+          "zoneName": "Índigo Celeste",
+          "zoneType": "private"
+        },
+        "apt_1002": {
+          "accessLevel": "resident",
+          "address": "Calle 8 2-77, Jamundí, Valle del Cauca, Colombia",
+          "apartmentNumber": "1002",
+          "authorizedUsers": [
+            "usertest"
+          ],
+          "color": "Verde Aether",
+          "colorCode": "#7CC9A4",
+          "colorMeaning": "Espacio de energía viva, conexión con lo natural y bienestar interior. Refresca, motiva, conecta con lo orgánico. Ideal para quien disfruta de la luz y la armonía con plantas o materiales naturales.",
+          "colorPalette": {
+            "acento": {
+              "description": "Calidez y equilibrio",
+              "hex": "#D1B97E",
+              "name": "Oro Suave",
+              "usage": "Muebles, marcos o nichos"
+            },
+            "complemento": {
+              "description": "Neutraliza sin apagar",
+              "hex": "#EDE8E0",
+              "name": "Arena Lunar",
+              "usage": "Columnas"
+            },
+            "natural": {
+              "description": "Armonía visual",
+              "hex": "#6B8E6D",
+              "name": "Verde Bosque Suave",
+              "usage": "Detalles en textiles o jardineras"
+            },
+            "principal": {
+              "description": "Revitalizante, fresco, natural",
+              "hex": "#7CC9A4",
+              "name": "Verde Aether",
+              "usage": "Paredes"
+            }
+          },
+          "concept": "Casa de la Vitalidad Consciente",
+          "esp32Devices": {
+            "D005": {
+              "apartmentId": "1002",
+              "deviceId": "D005",
+              "deviceName": "ESP32_Bedroom_1002",
+              "deviceType": "bedroom",
+              "ipAddress": "192.168.1.104",
+              "lastHeartbeat": 1707655800000,
+              "lastSeen": "2025-02-11T10:10:00Z",
+              "location": "Dormitorio 1002",
+              "status": "online",
+              "wifiSignal": -42,
+              "zoneId": "apt_1002"
+            }
+          },
+          "images": [
+            "https://colcentral.co/color/apto3.png",
+            "https://colcentral.co/color/apto2.png",
+            "https://colcentral.co/color/apto.png",
+            "https://colcentral.co/color/apto4.png"
+          ],
+          "iotDevices": {
+            "doorSensorMain": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:00:00Z",
+              "name": "doorSensorMain",
+              "parameters": {
+                "location": "Living Room",
+                "model": "DHT11"
+              },
+              "pins": {
+                "pin1": "D0",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "sensor"
+            },
+            "lightControlLivingRoom": {
+              "digital": true,
+              "lastValidation": "2025-02-11T10:20:00Z",
+              "name": "lightControlLivingRoom",
+              "parameters": {
+                "lightIntensity": 75,
+                "location": "Living Room",
+                "model": "LightControl"
+              },
+              "pins": {
+                "pin1": "D3",
+                "pin2": "null"
+              },
+              "status": "active",
+              "type": "actuator"
+            }
+          },
+          "routines": [
+            "morning",
+            "evening",
+            "outOfHome",
+            "security",
+            "energySaver",
+            "waterSaver",
+            "gasSaver"
+          ],
+          "security": {
+            "securityMode": {
+              "lastChecked": "2024-12-15T01:30:31.431Z",
+              "status": "enabled"
+            },
+            "smartLock": {
+              "lastChecked": "2024-12-15T01:30:31.431Z",
+              "status": "locked"
+            }
+          },
+          "state": "active",
+          "zoneName": "Verde Aether",
+          "zoneRecommendations": {
+            "bano": "Blanco + acentos oro suave → sensación spa",
+            "cocinaComedor": "Verde aether + arena lunar → frescura, amplitud y energía limpia",
+            "cuarto": "Tonos verde salvia + beige → descanso regenerativo",
+            "patioRopas": "Blanco + verde bosque → orden y vitalidad"
+          },
+          "zoneType": "private"
+        },
+        "commercial_103": {
+          "accessLevel": "owner",
+          "address": "Calle 8 2-77, Jamundí, Valle del Cauca, Colombia",
+          "authorizedUsers": [
+            "igorariza"
+          ],
+          "color": "Áureo",
+          "colorCode": "#D4AF37",
+          "colorMeaning": "Despierta tu espacio dorado donde la creatividad fluye, las ideas brillan y los sueños se convierten en logros. Ideal para quienes transforman visión en prosperidad.",
+          "colorPalette": {
+            "acento": {
+              "description": "Contraste y profesionalismo",
+              "hex": "#2B2B2B",
+              "name": "Negro Carbón",
+              "usage": "Marcos, mobiliario y señalización"
+            },
+            "complemento": {
+              "description": "Amplitud y elegancia",
+              "hex": "#F8F6F0",
+              "name": "Blanco Marfil",
+              "usage": "Paredes principales"
+            },
+            "natural": {
+              "description": "Calidez y autenticidad",
+              "hex": "#8B7355",
+              "name": "Madera Natural",
+              "usage": "Pisos y estanterías"
+            },
+            "principal": {
+              "description": "Prosperidad, abundancia e iluminación",
+              "hex": "#D4AF37",
+              "name": "Oro Áureo",
+              "usage": "Detalles y acentos"
+            }
+          },
+          "concept": "Local de la Prosperidad Creativa",
+          "esp32Devices": {
+            "D006": {
+              "deviceId": "D006",
+              "deviceName": "ESP32_Commercial_103",
+              "deviceType": "commercial",
+              "ipAddress": "192.168.1.105",
+              "lastHeartbeat": 1707655800000,
+              "lastSeen": "2025-02-11T10:10:00Z",
+              "location": "Local 103",
+              "status": "online",
+              "wifiSignal": -38,
+              "zoneId": "commercial_103"
+            }
+          },
+          "images": [
+            "https://colcentral.co/color/apto4.png",
+            "https://colcentral.co/color/apto2.png",
+            "https://colcentral.co/color/apto3.png",
+            "https://colcentral.co/color/apto.png"
+          ],
+          "number": "1003",
+          "routines": [
+            "security",
+            "energySaver",
+            "waterSaver",
+            "gasSaver"
+          ],
+          "security": {
+            "securityMode": {
+              "lastChecked": "2024-12-15T01:30:31.431Z",
+              "status": "enabled"
+            },
+            "smartLock": {
+              "lastChecked": "2024-12-15T01:30:31.431Z",
+              "status": "locked"
+            }
+          },
+          "spaceId": "commercial103",
+          "state": "active",
+          "zoneName": "Áureo",
+          "zoneType": "commercial"
+        },
+        "common": {
+          "accessLevel": "resident",
+          "authorizedUsers": [
+            "igorariza",
+            "usertest"
+          ],
+          "color": "Industrial Urbano",
+          "colorCode": "#8B4513",
+          "colorMeaning": "Espacio funcional de parqueadero con carácter urbano e industrial. Ladrillos estructurales a la vista y diseño semiindustrial que ofrece seguridad y estética contemporánea. Zona de acceso y transición con personalidad propia.",
+          "colorPalette": {
+            "acento": {
+              "description": "Fuerza y estilo industrial",
+              "hex": "#36454F",
+              "name": "Acero Negro",
+              "usage": "Barandales, marcos y señalización"
+            },
+            "complemento": {
+              "description": "Modernidad y durabilidad",
+              "hex": "#A8A8A8",
+              "name": "Concreto Pulido",
+              "usage": "Pisos y detalles estructurales"
+            },
+            "natural": {
+              "description": "Contraste natural en espacio urbano",
+              "hex": "#556B2F",
+              "name": "Verde Urbano",
+              "usage": "Jardineras y áreas verdes"
+            },
+            "principal": {
+              "description": "Estructura a la vista, autenticidad industrial",
+              "hex": "#8B4513",
+              "name": "Ladrillo Natural",
+              "usage": "Paredes estructurales y columnas"
+            }
+          },
+          "concept": "Parqueadero Semiindustrial Urbano",
+          "designFeatures": {
+            "atmosphere": "Funcional, seguro, contemporáneo",
+            "characteristics": "Ladrillos a la vista, concreto pulido, acero estructural, iluminación LED cálida",
+            "purpose": "Parqueadero con identidad arquitectónica que conecta el acceso vehicular con las áreas residenciales y comerciales",
+            "style": "Semiindustrial urbano"
+          },
+          "esp32Devices": {
+            "D001": {
+              "deviceId": "D001",
+              "deviceName": "ESP32_MainEntrance",
+              "deviceType": "gateway",
+              "freeHeap": 50000,
+              "ipAddress": "192.168.1.100",
+              "lastHeartbeat": 1707655200000,
+              "lastSeen": "2025-02-11T10:00:00Z",
+              "location": "Entrada Principal",
+              "status": "online",
+              "uptime": 3600000,
+              "wifiSignal": -45
+            },
+            "D002": {
+              "deviceId": "D002",
+              "deviceName": "ESP32_Parking",
+              "deviceType": "gateway",
+              "freeHeap": 48000,
+              "ipAddress": "192.168.1.101",
+              "lastHeartbeat": 1707655500000,
+              "lastSeen": "2025-02-11T10:05:00Z",
+              "location": "Parqueadero",
+              "status": "online",
+              "uptime": 3600000,
+              "wifiSignal": -50
+            }
+          },
+          "zoneName": "Nexus Industrial - Parqueadero",
+          "zoneType": "public"
+        }
+      }
+    }
+  },
+  "community": {
+    "B001": {
+      "activeUsers": {
+        "ggroupar": {
+          "apartmentId": "none",
+          "apartmentName": "Sin apartamento",
+          "lastSeen": 1768941841031,
+          "status": "online",
+          "userId": "ggroupar"
+        },
+        "igorariza": {
+          "apartmentId": "apt_1001",
+          "apartmentName": "Índigo Celeste",
+          "lastSeen": 1768941828901,
+          "status": "online",
+          "userId": "igorariza"
+        },
+        "usertest": {
+          "apartmentId": "apt_1002",
+          "apartmentName": "Verde Aether",
+          "lastSeen": 1707655100000,
+          "status": "online",
+          "userId": "usertest"
+        },
+        "yoinerchilito542": {
+          "apartmentId": "none",
+          "apartmentName": "Sin apartamento",
+          "lastSeen": 1768929057097,
+          "status": "online",
+          "userId": "yoinerchilito542"
+        }
+      },
+      "comments": {
+        "post_1": {
+          "comment_1": {
+            "commentId": "comment_1",
+            "content": "¡Totalmente de acuerdo! Es mi rutina favorita",
+            "postId": "post_1",
+            "status": "active",
+            "timestamp": 1707655800000,
+            "userAvatar": "👨",
+            "userId": "usertest",
+            "userName": "Carlos Ramírez"
+          },
+          "comment_2": {
+            "commentId": "comment_2",
+            "content": "Me encanta cómo se siente al despertar",
+            "postId": "post_1",
+            "status": "active",
+            "timestamp": 1707656400000,
+            "userAvatar": "👩",
+            "userId": "igorariza",
+            "userName": "María González"
+          }
+        }
+      },
+      "posts": {
+        "post_1": {
+          "apartmentId": "apt_1001",
+          "apartmentName": "Índigo Celeste",
+          "commentsCount": 3,
+          "content": "¡Increíble cómo la rutina de Amanecer Dorado transforma mi día! 🌅✨",
+          "icon": "🌅",
+          "likes": {
+            "igorariza": true,
+            "usertest": true
+          },
+          "likesCount": 12,
+          "moderatedAt": 1707655300000,
+          "moderatedBy": "system",
+          "moderationStatus": "approved",
+          "needsModeration": false,
+          "postId": "post_1",
+          "status": "active",
+          "timestamp": 1707655200000,
+          "type": "routine",
+          "userAvatar": "👩",
+          "userId": "igorariza",
+          "userName": "María González"
+        },
+        "post_1766112565747": {
+          "apartmentId": "apt_1001",
+          "apartmentName": "Índigo Celeste",
+          "commentsCount": 0,
+          "content": "Holaaa chicoxxx, qn quiere frijoles?",
+          "icon": "💬",
+          "likes": {
+            "igorariza": true
+          },
+          "likesCount": 1,
+          "moderationStatus": "approved",
+          "needsModeration": true,
+          "postId": "post_1766112565747",
+          "status": "active",
+          "timestamp": 1766112565747,
+          "type": "post",
+          "userAvatar": "👤",
+          "userId": "igorariza",
+          "userName": "Igor Ariza"
+        },
+        "post_1768875173092": {
+          "apartmentId": "apt_1001",
+          "apartmentName": "Índigo Celeste",
+          "commentsCount": 0,
+          "content": "casa color web3",
+          "icon": "🎉",
+          "likesCount": 0,
+          "moderationStatus": "pending",
+          "needsModeration": true,
+          "postId": "post_1768875173092",
+          "status": "active",
+          "timestamp": 1768875173092,
+          "type": "post",
+          "userAvatar": "👤",
+          "userId": "igorariza",
+          "userName": "Igor Ariza"
+        },
+        "post_2": {
+          "apartmentId": "apt_1002",
+          "apartmentName": "Verde Aether",
+          "commentsCount": 2,
+          "content": "Compartiendo mi logro: ¡Ahorré 15% de energía este mes! 💚⚡",
+          "icon": "🏆",
+          "likes": {
+            "igorariza": true
+          },
+          "likesCount": 8,
+          "moderatedAt": 1707648100000,
+          "moderatedBy": "system",
+          "moderationStatus": "approved",
+          "needsModeration": false,
+          "postId": "post_2",
+          "status": "active",
+          "timestamp": 1707648000000,
+          "type": "achievement",
+          "userAvatar": "👨",
+          "userId": "usertest",
+          "userName": "Carlos Ramírez"
+        },
+        "post_3": {
+          "apartmentId": "apt_1001",
+          "apartmentName": "Áureo",
+          "commentsCount": 5,
+          "content": "¿Alguien más nota cómo el sistema de seguridad te da tanta tranquilidad? 🔒",
+          "icon": "🔒",
+          "likes": {
+            "igorariza": true
+          },
+          "likesCount": 16,
+          "moderatedAt": 1707633700000,
+          "moderatedBy": "system",
+          "moderationStatus": "approved",
+          "needsModeration": false,
+          "postId": "post_3",
+          "status": "active",
+          "timestamp": 1707633600000,
+          "type": "security",
+          "userAvatar": "👩‍🦰",
+          "userId": "igorariza",
+          "userName": "Ana Martínez"
+        },
+        "post_4": {
+          "apartmentId": "apt_1002",
+          "apartmentName": "Índigo Celeste",
+          "commentsCount": 7,
+          "content": "Consejo: Usar la rutina Descanso Profundo mejora mucho el sueño 🌙",
+          "icon": "💡",
+          "likes": {
+            "igorariza": true,
+            "usertest": true
+          },
+          "likesCount": 20,
+          "moderatedAt": 1707568900000,
+          "moderatedBy": "system",
+          "moderationStatus": "approved",
+          "needsModeration": false,
+          "postId": "post_4",
+          "status": "active",
+          "timestamp": 1707568800000,
+          "type": "tip",
+          "userAvatar": "👨‍💼",
+          "userId": "usertest",
+          "userName": "Luis Fernández"
+        },
+        "post_pending_example": {
+          "apartmentId": "apt_1002",
+          "apartmentName": "Verde Aether",
+          "commentsCount": 0,
+          "content": "Este es un post pendiente de moderación",
+          "icon": "💬",
+          "likesCount": 0,
+          "moderationStatus": "pending",
+          "needsModeration": true,
+          "postId": "post_pending_example",
+          "status": "active",
+          "timestamp": 1707656000000,
+          "type": "post",
+          "userAvatar": "👤",
+          "userId": "usertest",
+          "userName": "Usuario Ejemplo"
+        },
+        "post_rejected_example": {
+          "apartmentId": "apt_1002",
+          "apartmentName": "Verde Aether",
+          "commentsCount": 0,
+          "content": "Este post fue rechazado por el servicio de moderación",
+          "icon": "💬",
+          "likesCount": 0,
+          "moderatedAt": 1707655100000,
+          "moderatedBy": "moderation_service",
+          "moderationReason": "Contenido inapropiado",
+          "moderationStatus": "rejected",
+          "needsModeration": false,
+          "postId": "post_rejected_example",
+          "status": "inactive",
+          "timestamp": 1707655000000,
+          "type": "post",
+          "userAvatar": "👤",
+          "userId": "usertest",
+          "userName": "Usuario Ejemplo"
+        }
+      },
+      "stats": {
+        "activeUsers": 24,
+        "communityScore": 100,
+        "lastUpdated": 1768185279611,
+        "totalComments": 389,
+        "totalLikes": 1242,
+        "totalPosts": 157
+      },
+      "userStats": {
+        "igorariza": {
+          "badges": [
+            "active_member",
+            "helpful_contributor"
+          ],
+          "comments": 12,
+          "communityPoints": 137,
+          "likes": 47,
+          "posts": 4
+        },
+        "usertest": {
+          "badges": [
+            "active_member"
+          ],
+          "comments": 8,
+          "communityPoints": 98,
+          "likes": 38,
+          "posts": 2
+        }
+      }
+    }
+  },
+  "events": {
+    "B001": {
+      "apt_1001": {
+        "1708738539798_001": {
+          "description": "La puerta principal fue cerrada y bloqueada.",
+          "details": {
+            "date": "2024-12-14",
+            "location": "entrada principal",
+            "lockStatus": "locked",
+            "time": "18:45:00"
+          },
+          "eventId": "08b2853d-83be-42ca-b339-5e257ebe1c9b",
+          "eventType": "doorLocked",
+          "timestamp": "2025-02-24T01:55:39.798Z",
+          "user": "ggroupar@gmail.com"
+        },
+        "1708738539798_002": {
+          "description": "Se detectó un alto consumo de agua en el baño.",
+          "details": {
+            "alertType": "highConsumption",
+            "area": "baño",
+            "consumption": 6,
+            "date": "2024-12-14",
+            "message": "High water consumption detected in bathroom (Shower: 6L). Consider optimizing usage.",
+            "time": "10:15:00"
+          },
+          "eventId": "96b548af-117e-4ecf-a9e5-ef89948ead32",
+          "eventType": "waterConsumptionAlert",
+          "timestamp": "2025-02-24T01:55:39.798Z",
+          "user": "ggroupar@gmail.com"
+        }
+      },
+      "apt_1002": {
+        "1708738539798_001": {
+          "description": "La puerta principal fue cerrada y bloqueada.",
+          "details": {
+            "date": "2024-12-14",
+            "location": "entrada principal",
+            "lockStatus": "locked",
+            "time": "18:45:00"
+          },
+          "eventId": "08b2853d-83be-42ca-b339-5e257ebe1c9b",
+          "eventType": "doorLocked",
+          "timestamp": "2025-02-24T01:55:39.798Z",
+          "user": "ggroupar@gmail.com"
+        }
+      }
+    }
+  },
+  "iot_devices": {
+    "ESP-B001-apt_1001-KITCHEN-ESP32-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": false,
+        "room": "kitchen",
+        "roomType": "kitchen",
+        "zone": "private"
+      },
+      "calibration": {
+        "calibrationData": {
+          "dht11": {
+            "humidityOffset": 0,
+            "temperatureOffset": 0
+          },
+          "mq2": {
+            "baseline": 120,
+            "sensitivity": 1
+          },
+          "yfs201": {
+            "calibrationFactor": 1,
+            "pulsePerLiter": 450
+          }
+        },
+        "lastCalibrated": "2024-01-15T10:00:00Z",
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "temperature",
+        "humidity",
+        "motion_detection",
+        "rain_detection",
+        "water_flow",
+        "gas_detection",
+        "multi_sensor"
+      ],
+      "config": {
+        "mqtt": {
+          "keepAlive": 60,
+          "qos": 1,
+          "retain": true
+        },
+        "reportingInterval": 10,
+        "samplingRate": 1,
+        "sensors": {
+          "dht11": {
+            "humidity": {
+              "max": 90,
+              "min": 20,
+              "precision": 1,
+              "thresholds": {
+                "criticalHigh": 85,
+                "high": 70,
+                "low": 30
+              },
+              "unit": "percent"
+            },
+            "pin": 4,
+            "temperature": {
+              "max": 50,
+              "min": -10,
+              "precision": 1,
+              "thresholds": {
+                "criticalHigh": 35,
+                "high": 28,
+                "low": 18
+              },
+              "unit": "celsius"
+            },
+            "type": "DHT11",
+            "updateInterval": 10
+          },
+          "mq2": {
+            "analogPin": "A0",
+            "digitalPin": 0,
+            "gases": {
+              "co": {
+                "max": 10000,
+                "min": 0,
+                "threshold": 1000,
+                "unit": "ppm"
+              },
+              "lpg": {
+                "max": 10000,
+                "min": 0,
+                "threshold": 1000,
+                "unit": "ppm"
+              },
+              "smoke": {
+                "max": 10000,
+                "min": 0,
+                "threshold": 1000,
+                "unit": "ppm"
+              }
+            },
+            "pin": 0,
+            "sensitivity": "medium",
+            "threshold": 300,
+            "type": "MQ-2",
+            "updateInterval": 2
+          },
+          "pir": {
+            "delayTime": 3,
+            "detectionRange": 7,
+            "pin": 21,
+            "sensitivity": "medium",
+            "type": "HC-SR501",
+            "unit": "meters",
+            "updateInterval": 1
+          },
+          "raindrop": {
+            "analogPin": "A0",
+            "pin": 5,
+            "ranges": {
+              "dry": {
+                "max": 1024,
+                "min": 800
+              },
+              "moist": {
+                "max": 800,
+                "min": 500
+              },
+              "wet": {
+                "max": 500,
+                "min": 0
+              }
+            },
+            "threshold": 800,
+            "type": "Raindrop",
+            "updateInterval": 5
+          },
+          "yfs201": {
+            "calibrationFactor": 1,
+            "pin": 2,
+            "pulsePerLiter": 450,
+            "totalVolume": {
+              "maxValue": 999999.99,
+              "precision": 2,
+              "unit": "liters"
+            },
+            "type": "YFS201",
+            "updateInterval": 1,
+            "waterFlow": {
+              "max": 30,
+              "min": 0,
+              "precision": 2,
+              "unit": "lpm"
+            }
+          }
+        }
+      },
+      "connectionQuality": {
+        "connectionStability": 99.5,
+        "lastSignalUpdate": "2025-11-24T10:30:00-05:00",
+        "rssi": -65,
+        "wifiSignal": -65
+      },
+      "dependencies": {
+        "childDevices": [
+          "ESP-B001-apt_1001-KITCHEN-DHT11-01",
+          "ESP-B001-apt_1001-KITCHEN-PIR-01",
+          "ESP-B001-apt_1001-KITCHEN-RAINDROP-01",
+          "ESP-B001-apt_1001-KITCHEN-YFS201-01",
+          "ESP-B001-apt_1001-KITCHEN-MQ2-01"
+        ],
+        "integratedSensors": [
+          {
+            "capabilities": [
+              "temperature",
+              "humidity"
+            ],
+            "pin": 4,
+            "sensorId": "ESP-B001-apt_1001-KITCHEN-DHT11-01",
+            "sensorType": "DHT11",
+            "status": "active"
+          },
+          {
+            "capabilities": [
+              "motion_detection"
+            ],
+            "pin": 21,
+            "sensorId": "ESP-B001-apt_1001-KITCHEN-PIR-01",
+            "sensorType": "HC-SR501",
+            "status": "active"
+          },
+          {
+            "capabilities": [
+              "rain_detection"
+            ],
+            "pin": 5,
+            "sensorId": "ESP-B001-apt_1001-KITCHEN-RAINDROP-01",
+            "sensorType": "Raindrop",
+            "status": "active"
+          },
+          {
+            "capabilities": [
+              "water_flow",
+              "water_consumption"
+            ],
+            "pin": 2,
+            "sensorId": "ESP-B001-apt_1001-KITCHEN-YFS201-01",
+            "sensorType": "YFS201",
+            "status": "active"
+          },
+          {
+            "capabilities": [
+              "gas_detection"
+            ],
+            "pin": 0,
+            "sensorId": "ESP-B001-apt_1001-KITCHEN-MQ2-01",
+            "sensorType": "MQ-2",
+            "status": "active"
+          }
+        ]
+      },
+      "deviceId": "ESP-B001-apt_1001-KITCHEN-ESP32-01",
+      "errorLog": {
+        "lastError": {
+          "message": "DHT11 sensor did not respond within timeout",
+          "resolved": true,
+          "sensor": "dht11",
+          "timestamp": "2025-11-23T15:30:00Z",
+          "type": "sensor_read_timeout"
+        },
+        "totalErrors": 5
+      },
+      "execution": {
+        "averageExecutionTime": 0.1,
+        "executionCount": 5184000,
+        "lastExecuted": "2025-11-24T10:30:00-05:00",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 0.08
+      },
+      "firmwareVersion": "2.0.1",
+      "groups": [
+        "group_kitchen_sensors",
+        "group_apt_1001_all",
+        "group_multi_sensor_devices"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "multi_sensor",
+          "domain": "sensor",
+          "entities": {
+            "gas": "sensor.kitchen_gas",
+            "humidity": "sensor.kitchen_humidity",
+            "motion": "binary_sensor.kitchen_motion",
+            "rain": "binary_sensor.kitchen_rain",
+            "temperature": "sensor.kitchen_temperature",
+            "water_flow": "sensor.kitchen_water_flow"
+          },
+          "entityId": "sensor.kitchen_multisensor",
+          "integrationType": "mqtt"
+        },
+        "mqtt": {
+          "description": "ESP32 con múltiples sensores en cocina",
+          "friendlyName": "Kitchen Multi-Sensor Hub",
+          "qos": 1,
+          "retain": true
+        }
+      },
+      "lastKnownState": {
+        "sensors": {
+          "dht11": {
+            "heatIndex": 25.8,
+            "humidity": 65,
+            "lastRead": "2025-11-24T10:30:00-05:00",
+            "status": "active",
+            "temperature": 24.5,
+            "unit": "celsius"
+          },
+          "mq2": {
+            "alarm": false,
+            "analogValue": 120,
+            "co": 0,
+            "digitalValue": 0,
+            "gasLevel": 0,
+            "lastRead": "2025-11-24T10:30:00-05:00",
+            "lpg": 0,
+            "smoke": 0,
+            "status": "active",
+            "threshold": 300
+          },
+          "pir": {
+            "lastMotion": "2025-11-24T10:25:00-05:00",
+            "lastRead": "2025-11-24T10:30:00-05:00",
+            "motion": false,
+            "motionCount": 12,
+            "status": "active"
+          },
+          "raindrop": {
+            "analogValue": 1024,
+            "lastRead": "2025-11-24T10:30:00-05:00",
+            "rainDetected": false,
+            "rainLevel": 0,
+            "status": "active",
+            "threshold": 800
+          },
+          "yfs201": {
+            "flowRate": 0,
+            "flowRateLpm": 0,
+            "isFlowing": false,
+            "lastRead": "2025-11-24T10:30:00-05:00",
+            "pulseCount": 12505,
+            "status": "active",
+            "totalVolume": 1250.5,
+            "totalVolumeLiters": 1250.5
+          }
+        },
+        "system": {
+          "freeHeap": 45000,
+          "lastRestart": "2025-11-22T10:30:00-05:00",
+          "uptime": 172800,
+          "wifiRssi": -65
+        },
+        "timestamp": "2025-11-24T10:30:00-05:00"
+      },
+      "lastSeen": "2025-11-24T10:30:00-05:00",
+      "limits": {
+        "maxFlowRate": 30,
+        "maxGasLevel": 10000,
+        "maxTemperature": 50,
+        "minFlowRate": 0,
+        "minGasLevel": 0,
+        "minTemperature": -10
+      },
+      "location": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 3.5,
+          "y": 2.3,
+          "z": 1
+        },
+        "floor": 1,
+        "room": "kitchen",
+        "zone": "private"
+      },
+      "maintenance": {
+        "installDate": "2024-01-15T10:00:00Z",
+        "lastMaintenance": "2025-01-15T10:00:00Z",
+        "nextMaintenance": "2026-01-15T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-01-15T10:00:00Z"
+      },
+      "manufacturer": "Espressif",
+      "manufacturingDate": "2024-01-15",
+      "metadata": {
+        "createdAt": "2024-01-15T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "ESP32",
+          "multi_sensor",
+          "kitchen",
+          "apt_1001",
+          "dht11",
+          "pir",
+          "raindrop",
+          "yfs201",
+          "mq2",
+          "gas_detection",
+          "motion_detection",
+          "water_flow",
+          "temperature",
+          "humidity"
+        ],
+        "updatedAt": "2025-11-24T10:30:00-05:00",
+        "version": 1
+      },
+      "model": "ESP32",
+      "modelId": "ESP32_NodeMCU_v3",
+      "name": "ESP32 Hub Cocina - Múltiples Sensores",
+      "networkInfo": {
+        "dns": "8.8.8.8",
+        "gateway": "192.168.1.1",
+        "ipAddress": "192.168.1.108",
+        "macAddress": "AA:BB:CC:DD:EE:08",
+        "networkId": "wifi_network_001",
+        "networkRole": "client",
+        "ssid": "CasaColor_WiFi",
+        "subnet": "255.255.255.0"
+      },
+      "payloads": {
+        "calibrate": {
+          "action": "calibrate"
+        },
+        "read": {
+          "action": "read_all_sensors"
+        },
+        "read_dht11": {
+          "action": "read_sensor",
+          "sensor": "dht11"
+        },
+        "read_mq2": {
+          "action": "read_sensor",
+          "sensor": "mq2"
+        },
+        "read_pir": {
+          "action": "read_sensor",
+          "sensor": "pir"
+        },
+        "read_raindrop": {
+          "action": "read_sensor",
+          "sensor": "raindrop"
+        },
+        "read_yfs201": {
+          "action": "read_sensor",
+          "sensor": "yfs201"
+        },
+        "reset_yfs201": {
+          "action": "reset_counter",
+          "sensor": "yfs201"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "mqtt",
+      "ranges": {
+        "gasLevel": {
+          "max": 10000,
+          "min": 0,
+          "unit": "ppm"
+        },
+        "humidity": {
+          "max": 90,
+          "min": 20,
+          "unit": "percent"
+        },
+        "rainLevel": {
+          "max": 1024,
+          "min": 0,
+          "unit": "analog"
+        },
+        "temperature": {
+          "max": 50,
+          "min": -10,
+          "unit": "celsius"
+        },
+        "waterFlow": {
+          "max": 30,
+          "min": 0,
+          "unit": "lpm"
+        }
+      },
+      "room": "cocina",
+      "security": {
+        "authenticationMethod": "wpa2",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2024-01-15T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ESP-2024-KITCHEN-001",
+      "status": "offline",
+      "supportedFeatures": {
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "multiSensor": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/status",
+        "command": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/commands",
+        "sensors": {
+          "dht11": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/sensors/dht11",
+          "mq2": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/sensors/mq2",
+          "pir": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/sensors/pir",
+          "raindrop": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/sensors/raindrop",
+          "yfs201": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/sensors/yfs201"
+        },
+        "telemetry": "buildings/B001/apartments/1001/rooms/KITCHEN/devices/ESP-B001-apt_1001-KITCHEN-ESP32-01/sensors"
+      },
+      "uptime": 172800,
+      "usageStats": {
+        "averageDailyUsage": 86400,
+        "energyConsumption": {
+          "averageDailyKwh": 0.003,
+          "lastCalculated": "2025-11-24T00:00:00Z",
+          "totalKwh": 0.5
+        },
+        "lastOperation": "2025-11-24T10:30:00-05:00",
+        "sensorReadings": {
+          "dht11": 1555200,
+          "mq2": 7776000,
+          "pir": 15552000,
+          "raindrop": 3110400,
+          "yfs201": 15552000
+        },
+        "totalOnTime": 172800,
+        "totalOperations": 5184000,
+        "waterConsumption": {
+          "averageDailyLiters": 12.5,
+          "lastCalculated": "2025-11-24T00:00:00Z",
+          "totalLiters": 1250.5
+        }
+      },
+      "validation": {
+        "lastValidated": "2025-11-24T10:30:00-05:00",
+        "nextValidation": "2025-11-24T10:35:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ESP-B001-common-ENTRANCE-BLUETOOTH-PROXY-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "common",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": true,
+        "room": "entrance",
+        "roomType": "entrance",
+        "zone": "common"
+      },
+      "calibration": {
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "ble_scanning",
+        "proximity_detection",
+        "security_validation",
+        "device_tracking",
+        "access_control"
+      ],
+      "config": {
+        "ble": {
+          "proximityThresholds": {
+            "far": -80,
+            "immediate": -50,
+            "near": -70,
+            "outOfRange": -90
+          },
+          "scanDuration": 5,
+          "scanInterval": 10
+        },
+        "firebase": {
+          "heartbeatInterval": 60,
+          "syncInterval": 30
+        },
+        "mqtt": {
+          "keepAlive": 60,
+          "qos": 1,
+          "retain": true
+        },
+        "reportingInterval": 10,
+        "samplingRate": 1
+      },
+      "connectionQuality": {
+        "connectionStability": 99.5,
+        "lastSignalUpdate": "2025-12-26T10:00:00Z",
+        "rssi": -45,
+        "wifiSignal": -45
+      },
+      "dependencies": {
+        "requiredByDevices": [
+          "SR-B001-common-ENTRANCE-MOTOR-01",
+          "ZB-B001-common-ENTRANCE-LOCK-01"
+        ]
+      },
+      "deviceId": "ESP-B001-common-ENTRANCE-BLUETOOTH-PROXY-01",
+      "errorLog": {
+        "totalErrors": 0
+      },
+      "execution": {
+        "averageExecutionTime": 0.5,
+        "executionCount": 5184000,
+        "lastExecuted": "2025-12-26T10:00:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 0.4
+      },
+      "firmwareVersion": "2.0.1",
+      "groups": [
+        "group_entrance_devices",
+        "group_ble_proxies",
+        "group_security_devices",
+        "group_common_area_devices"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "proxy",
+          "domain": "device_tracker",
+          "entityId": "device_tracker.entrance_bluetooth_proxy",
+          "integrationType": "mqtt"
+        },
+        "mqtt": {
+          "description": "ESP32 Bluetooth Proxy para detección de proximidad y control de acceso",
+          "friendlyName": "Entrance Bluetooth Proxy",
+          "qos": 1,
+          "retain": true
+        }
+      },
+      "lastKnownState": {
+        "ble": {
+          "devicesAuthorized": 2,
+          "devicesDetected": 3,
+          "lastScan": "2025-12-26T10:00:00Z",
+          "scanStatus": "active"
+        },
+        "system": {
+          "freeHeap": 45000,
+          "lastRestart": "2025-12-01T10:00:00Z",
+          "uptime": 2160000,
+          "wifiRssi": -45
+        },
+        "timestamp": "2025-12-26T10:00:00Z"
+      },
+      "lastSeen": "2025-12-26T10:00:00Z",
+      "limits": {
+        "maxDevicesDetected": 20,
+        "maxScanDuration": 10,
+        "minScanInterval": 5
+      },
+      "location": {
+        "apartmentId": "common",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 0.8,
+          "y": 0,
+          "z": 1
+        },
+        "floor": 1,
+        "room": "entrance",
+        "zone": "common"
+      },
+      "maintenance": {
+        "installDate": "2025-12-01T10:00:00Z",
+        "lastMaintenance": "2025-12-01T10:00:00Z",
+        "nextMaintenance": "2026-06-01T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-12-01T10:00:00Z"
+      },
+      "manufacturer": "Espressif",
+      "manufacturingDate": "2025-11-01",
+      "metadata": {
+        "createdAt": "2025-12-01T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "ESP32",
+          "bluetooth",
+          "BLE",
+          "proxy",
+          "entrance",
+          "security",
+          "proximity",
+          "access_control",
+          "common",
+          "firebase"
+        ],
+        "updatedAt": "2025-12-26T10:00:00Z",
+        "version": 1
+      },
+      "model": "ESP32",
+      "modelId": "ESP32_DevKit",
+      "name": "ESP32 Bluetooth Proxy - Entrada Principal",
+      "networkInfo": {
+        "dns": "8.8.8.8",
+        "gateway": "192.168.1.1",
+        "ipAddress": "192.168.1.110",
+        "macAddress": "AA:BB:CC:DD:EE:10",
+        "networkId": "wifi_network_001",
+        "networkRole": "client",
+        "ssid": "CasaColor_WiFi",
+        "subnet": "255.255.255.0"
+      },
+      "payloads": {
+        "read_status": {
+          "action": "read_status"
+        },
+        "scan": {
+          "action": "start_ble_scan"
+        },
+        "stop_scan": {
+          "action": "stop_ble_scan"
+        },
+        "sync_devices": {
+          "action": "sync_authorized_devices"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "mqtt",
+      "ranges": {
+        "proximityLevel": {
+          "values": [
+            "immediate",
+            "near",
+            "far",
+            "very_far",
+            "out_of_range"
+          ]
+        },
+        "rssi": {
+          "max": 0,
+          "min": -100,
+          "unit": "dBm"
+        }
+      },
+      "room": "entrada",
+      "security": {
+        "authenticationMethod": "wpa2",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2025-12-01T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ESP-2025-ENTRANCE-BLE-001",
+      "status": "online",
+      "supportedFeatures": {
+        "bleScanning": true,
+        "colorControl": false,
+        "dimming": false,
+        "firebaseIntegration": true,
+        "groups": true,
+        "proximityDetection": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "securityValidation": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "buildings/B001/zones/common/ENTRANCE/devices/BLUETOOTH-PROXY-01/status",
+        "ble": "buildings/B001/zones/common/ENTRANCE/devices/BLUETOOTH-PROXY-01/ble",
+        "command": "buildings/B001/zones/common/ENTRANCE/devices/BLUETOOTH-PROXY-01/commands",
+        "proximity": "buildings/B001/zones/common/ENTRANCE/devices/BLUETOOTH-PROXY-01/proximity",
+        "security": "buildings/B001/zones/common/ENTRANCE/devices/BLUETOOTH-PROXY-01/security",
+        "telemetry": "buildings/B001/zones/common/ENTRANCE/devices/BLUETOOTH-PROXY-01/telemetry"
+      },
+      "uptime": 2160000,
+      "usageStats": {
+        "averageDailyUsage": 86400,
+        "bleScans": {
+          "dailyAverage": 8640,
+          "last24Hours": 8640,
+          "last30Days": 259200,
+          "last7Days": 60480,
+          "total": 5184000
+        },
+        "energyConsumption": {
+          "averageDailyKwh": 0.003,
+          "lastCalculated": "2025-12-26T00:00:00Z",
+          "totalKwh": 0.65
+        },
+        "lastOperation": "2025-12-26T10:00:00Z",
+        "totalOnTime": 2160000,
+        "totalOperations": 5184000
+      },
+      "validation": {
+        "lastValidated": "2025-12-26T10:00:00Z",
+        "nextValidation": "2025-12-26T10:05:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ESP-B001-park_1001-PARKING-ESP32-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "park_1001",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": true,
+        "room": "parking",
+        "roomType": "parking",
+        "zone": "common"
+      },
+      "calibration": {
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "ultrasonic_distance",
+        "multi_sensor"
+      ],
+      "config": {
+        "reportingInterval": 60,
+        "transitionTime": 300
+      },
+      "connectionQuality": {
+        "lastSignalUpdate": "2025-12-07T02:48:39.884Z",
+        "linkquality": 156,
+        "lqi": 255,
+        "rssi": -45,
+        "signalStrength": -45
+      },
+      "dependencies": {
+        "requiredByDevices": [
+          "SR-B001-park_1001-MOTOR-ULTRASONIC-01",
+          "SR-B001-park_1001-PARKING-PIR-01",
+          "SR-B001-park_1001-PARKING-PIR-02"
+        ]
+      },
+      "deviceId": "ESP-B001-park_1001-PARKING-ESP32-01",
+      "errorLog": {
+        "lastError": {
+          "message": "Device did not respond within 5 seconds",
+          "resolved": true,
+          "timestamp": "2025-11-20T15:30:00Z",
+          "type": "connection_timeout"
+        },
+        "totalErrors": 3
+      },
+      "execution": {
+        "averageExecutionTime": 1.2,
+        "executionCount": 45,
+        "lastExecuted": "2025-11-21T06:00:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 1.1
+      },
+      "firmwareVersion": "1.0.3",
+      "groups": [
+        "group_parking_sensors",
+        "group_park_1001_all"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "ultrasonic_distance",
+          "domain": "sensor",
+          "entityId": "sensor.parking_distance",
+          "integrationType": "mqtt"
+        },
+        "mqtt": {
+          "description": "Sensor de distancia para parqueadero",
+          "friendlyName": "Parking Distance Sensor",
+          "qos": 1,
+          "retain": true
+        }
+      },
+      "lastKnownState": {
+        "distance_cm": 150.5,
+        "distance_m": 1.505,
+        "linkquality": 156,
+        "occupancy_status": "OCUPADO",
+        "timestamp": "2025-12-07T02:48:39.884Z"
+      },
+      "lastSeen": "2025-12-07T02:48:39.884Z",
+      "limits": {
+        "maxDistance": 450,
+        "minDistance": 2
+      },
+      "location": {
+        "apartmentId": "park_1001",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 2.5,
+          "y": 1.2,
+          "z": 3
+        },
+        "floor": 1,
+        "room": "parking",
+        "zone": "common"
+      },
+      "maintenance": {
+        "installDate": "2025-01-10T10:00:00Z",
+        "lastMaintenance": "2025-01-15T10:00:00Z",
+        "nextMaintenance": "2026-01-15T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-01-15T10:00:00Z"
+      },
+      "manufacturer": "Espressif",
+      "manufacturingDate": "2024-01-15",
+      "metadata": {
+        "createdAt": "2024-01-15T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "ESP32",
+          "ultrasonic_distance",
+          "parking",
+          "park_1001",
+          "common"
+        ],
+        "updatedAt": "2025-12-07T02:48:39.884Z",
+        "version": 1
+      },
+      "model": "ESP32",
+      "modelId": "ESP32_NodeMCU_v3",
+      "name": "ESP32 Parking Sensor",
+      "networkInfo": {
+        "dns": "8.8.8.8",
+        "gateway": "192.168.1.1",
+        "ipAddress": "192.168.1.108",
+        "macAddress": "AA:BB:CC:DD:EE:08",
+        "networkId": "wifi_network_001",
+        "networkRole": "client",
+        "ssid": "CasaColor_WiFi",
+        "subnet": "255.255.255.0"
+      },
+      "payloads": {
+        "calibrate": {
+          "action": "calibrate"
+        },
+        "read": {
+          "action": "read_all_sensors"
+        },
+        "read_ultrasonic_distance": {
+          "action": "read_sensor",
+          "sensor": "ultrasonic_distance"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "mqtt",
+      "ranges": {
+        "distance_cm": {
+          "max": 450,
+          "min": 2,
+          "unit": "cm"
+        },
+        "distance_m": {
+          "max": 4.5,
+          "min": 0.02,
+          "unit": "m"
+        },
+        "occupancy_status": {
+          "values": [
+            "OCUPADO",
+            "LIBRE"
+          ]
+        }
+      },
+      "room": "parking",
+      "security": {
+        "authenticationMethod": "wpa2",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2024-01-15T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ESP-2026-PARKING-001",
+      "status": "offline",
+      "supportedFeatures": {
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "multiSensor": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "buildings/B001/zones/common/PARKING/devices/ESP32-01/status",
+        "command": "buildings/B001/zones/common/PARKING/devices/ESP32-01/commands",
+        "sensors": {
+          "pir": "buildings/B001/zones/common/PARKING/devices/ESP32-01/sensors/pir",
+          "ultrasonic_distance": "buildings/B001/zones/common/PARKING/devices/ESP32-01/sensors/ultrasonic_distance"
+        },
+        "telemetry": "buildings/B001/zones/common/PARKING/devices/ESP32-01/sensors"
+      },
+      "uptime": 172800,
+      "usageStats": {
+        "averageDailyUsage": 86400,
+        "energyConsumption": {
+          "averageDailyKwh": 0.003,
+          "lastCalculated": "2025-11-24T00:00:00Z",
+          "totalKwh": 0.5
+        },
+        "lastOperation": "2025-11-24T10:30:00-05:00",
+        "sensorReadings": {
+          "ultrasonic_distance": 15552000
+        },
+        "totalOnTime": 172800,
+        "totalOperations": 5184000
+      },
+      "validation": {
+        "lastValidated": "2025-11-24T10:30:00-05:00",
+        "nextValidation": "2025-11-24T10:35:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "SR-B001-park_1001-MOTOR-ULTRASONIC-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "park_1001",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": true,
+        "room": "parking",
+        "roomType": "parking",
+        "zone": "common"
+      },
+      "calibration": {
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "motor"
+      ],
+      "config": {
+        "reportingInterval": 60,
+        "transitionTime": 300
+      },
+      "connectionQuality": {
+        "lastSignalUpdate": "2025-12-07T02:48:39.884Z",
+        "linkquality": 156,
+        "lqi": 255,
+        "rssi": -45,
+        "signalStrength": -45
+      },
+      "dependencies": {
+        "requiredByDevices": [
+          "ESP-B001-park_1001-PARKING-ESP32-01"
+        ]
+      },
+      "deviceId": "SR-B001-park_1001-MOTOR-ULTRASONIC-01",
+      "errorLog": {
+        "lastError": {
+          "message": "Device did not respond within 5 seconds",
+          "resolved": true,
+          "timestamp": "2025-11-20T15:30:00Z",
+          "type": "connection_timeout"
+        },
+        "totalErrors": 3
+      },
+      "execution": {
+        "averageExecutionTime": 1.2,
+        "executionCount": 45,
+        "lastExecuted": "2025-11-21T06:00:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 1.1
+      },
+      "firmwareVersion": "1.0.3",
+      "groups": [
+        "group_parking_motors",
+        "group_park_1001_all"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "motor",
+          "domain": "motor",
+          "entityId": "motor.parking_motor_01",
+          "integrationType": "mqtt"
+        },
+        "mqtt": {
+          "description": "Motor de parqueadero",
+          "friendlyName": "Parking Motor",
+          "qos": 1,
+          "retain": true
+        }
+      },
+      "lastKnownState": {
+        "linkquality": 156,
+        "state": "OFF",
+        "timestamp": "2025-12-07T02:48:39.884Z"
+      },
+      "lastSeen": "2025-12-07T02:48:39.884Z",
+      "limits": {
+        "maxSpeed": 100,
+        "minSpeed": 0
+      },
+      "location": {
+        "apartmentId": "park_1001",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 2.5,
+          "y": 1.2,
+          "z": 3
+        },
+        "floor": 1,
+        "room": "parking",
+        "zone": "common"
+      },
+      "maintenance": {
+        "installDate": "2025-01-10T10:00:00Z",
+        "lastMaintenance": "2025-01-15T10:00:00Z",
+        "nextMaintenance": "2026-01-15T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-01-15T10:00:00Z"
+      },
+      "manufacturer": "Espressif",
+      "manufacturingDate": "2024-01-15",
+      "metadata": {
+        "createdAt": "2024-01-15T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "ESP32",
+          "ultrasonic_distance",
+          "parking",
+          "park_1001",
+          "common"
+        ],
+        "updatedAt": "2025-12-07T02:48:39.884Z",
+        "version": 1
+      },
+      "model": "ESP32",
+      "modelId": "ESP32_NodeMCU_v3",
+      "name": "ESP32 Parking Sensor",
+      "networkInfo": {
+        "dns": "8.8.8.8",
+        "gateway": "192.168.1.1",
+        "ipAddress": "192.168.1.108",
+        "macAddress": "AA:BB:CC:DD:EE:08",
+        "networkId": "wifi_network_001",
+        "networkRole": "client",
+        "ssid": "CasaColor_WiFi",
+        "subnet": "255.255.255.0"
+      },
+      "payloads": {
+        "close": {
+          "action": "close"
+        },
+        "open": {
+          "action": "open"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "mqtt",
+      "ranges": {
+        "state": {
+          "values": [
+            "OPEN",
+            "CLOSED"
+          ]
+        }
+      },
+      "room": "parking",
+      "security": {
+        "authenticationMethod": "wpa2",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2025-01-15T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "SR-2026-MOTOR-001",
+      "status": "online",
+      "supportedFeatures": {
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "multiSensor": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "buildings/B001/zones/common/PARKING/devices/MOTOR-01/status",
+        "command": "buildings/B001/zones/common/PARKING/devices/MOTOR-01/commands",
+        "sensors": {
+          "pir": "buildings/B001/zones/common/PARKING/devices/MOTOR-01/sensors/pir",
+          "ultrasonic_distance": "buildings/B001/zones/common/PARKING/devices/MOTOR-01/sensors/ultrasonic_distance"
+        },
+        "telemetry": "buildings/B001/zones/common/PARKING/devices/MOTOR-01/sensors"
+      },
+      "uptime": 86400,
+      "usageStats": {
+        "averageDailyUsage": 1,
+        "energyConsumption": {
+          "averageDailyKwh": 0.15,
+          "lastCalculated": "2025-11-21T00:00:00Z",
+          "totalKwh": 45.2
+        },
+        "lastOperation": "2025-12-07T02:48:39.884Z",
+        "totalOnTime": 864177,
+        "totalOperations": 38
+      },
+      "validation": {
+        "lastValidated": "2025-11-21T21:15:48-05:00",
+        "nextValidation": "2025-11-21T21:20:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ZB-B001-apt_1001-BATHROOM-PIR-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": false,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": false,
+        "room": "bathroom",
+        "roomType": "bathroom",
+        "zone": "private"
+      },
+      "battery": {
+        "batteryLevel": 85,
+        "batteryLowThreshold": 20,
+        "lastBatteryUpdate": "2025-11-24T10:30:00-05:00",
+        "lowBatteryAlert": false,
+        "voltage": 3.1
+      },
+      "calibration": {
+        "delayTime": 3,
+        "detectionRange": 7,
+        "lastCalibrated": "2024-01-15T10:00:00Z",
+        "requiresCalibration": false,
+        "sensitivity": "medium"
+      },
+      "capabilities": [
+        "motion_detection",
+        "occupancy_sensing",
+        "battery_monitoring"
+      ],
+      "config": {
+        "illuminanceThreshold": {
+          "lux": 3,
+          "unit": "lux"
+        },
+        "motionDetection": {
+          "delayTime": 3,
+          "detectionRange": 7,
+          "sensitivity": "medium",
+          "timeout": 180,
+          "unit": "seconds"
+        },
+        "mqtt": {
+          "keepAlive": 60,
+          "qos": 1,
+          "retain": true
+        },
+        "reportingInterval": 1,
+        "samplingRate": 1
+      },
+      "connectionQuality": {
+        "connectionStability": 98.5,
+        "lastSignalUpdate": "2025-11-24T10:30:00-05:00",
+        "linkquality": 156,
+        "rssi": -72
+      },
+      "deviceId": "ZB-B001-apt_1001-BATHROOM-PIR-01",
+      "errorLog": {
+        "totalErrors": 0
+      },
+      "execution": {
+        "averageExecutionTime": 0.05,
+        "executionCount": 2592000,
+        "lastExecuted": "2025-11-24T10:30:00-05:00",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 0.03
+      },
+      "firmwareVersion": "1.0.0",
+      "groups": [
+        "group_bathroom_sensors",
+        "group_apt_1001_all",
+        "group_motion_sensors",
+        "group_security_sensors"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "motion",
+          "domain": "binary_sensor",
+          "entities": {
+            "battery": "sensor.zb_b001_apt_1001_bathroom_pir_01_battery",
+            "linkquality": "sensor.zb_b001_apt_1001_bathroom_pir_01_linkquality",
+            "motion": "binary_sensor.zb_b001_apt_1001_bathroom_pir_01",
+            "occupancy": "binary_sensor.zb_b001_apt_1001_bathroom_pir_01_occupancy"
+          },
+          "entityId": "binary_sensor.zb_b001_apt_1001_bathroom_pir_01",
+          "integrationType": "zigbee2mqtt"
+        },
+        "mqtt": {
+          "description": "Sensor de movimiento PIR Zigbee para baño",
+          "friendlyName": "ZB-B001-apt_1001-BATHROOM-PIR-01",
+          "qos": 1,
+          "retain": true
+        },
+        "zigbee2mqtt": {
+          "definition": {
+            "description": "Motion sensor",
+            "exposes": [
+              {
+                "access": 1,
+                "description": "Indicates whether the device detected occupancy",
+                "name": "occupancy",
+                "property": "occupancy",
+                "type": "binary",
+                "value_off": false,
+                "value_on": true
+              },
+              {
+                "access": 1,
+                "description": "Measured presence value",
+                "name": "presence",
+                "property": "presence",
+                "type": "binary",
+                "value_off": false,
+                "value_on": true
+              },
+              {
+                "access": 1,
+                "description": "Remaining battery in %, can take up to 24 hours before reported.",
+                "name": "battery",
+                "property": "battery",
+                "type": "numeric",
+                "unit": "%",
+                "value_max": 100,
+                "value_min": 0
+              },
+              {
+                "access": 1,
+                "description": "Link quality (signal strength)",
+                "name": "linkquality",
+                "property": "linkquality",
+                "type": "numeric",
+                "unit": "lqi",
+                "value_max": 255,
+                "value_min": 0
+              }
+            ],
+            "model": "PIR_SENSOR",
+            "vendor": "Generic"
+          },
+          "endpoints": [
+            null,
+            {
+              "clusters": {
+                "input": [
+                  "genBasic",
+                  "genPowerCfg",
+                  "genIdentify",
+                  "ssIasZone",
+                  "genPollCtrl"
+                ]
+              }
+            }
+          ],
+          "ieee_address": "0x00124b0028a12345",
+          "network_address": 12345,
+          "supported": true
+        }
+      },
+      "lastKnownState": {
+        "battery": {
+          "lastRead": "2025-11-24T10:30:00-05:00",
+          "level": 85,
+          "status": "good",
+          "voltage": 3.1
+        },
+        "linkquality": {
+          "lastRead": "2025-11-24T10:30:00-05:00",
+          "quality": 156,
+          "status": "good"
+        },
+        "motion": {
+          "lastMotion": "2025-11-24T10:28:15-05:00",
+          "lastRead": "2025-11-24T10:30:00-05:00",
+          "motion": false,
+          "motionCount": 245,
+          "occupancy": false,
+          "presence": false,
+          "status": "active"
+        },
+        "timestamp": "2025-11-24T10:30:00-05:00"
+      },
+      "lastSeen": "2025-11-24T10:30:00-05:00",
+      "location": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 2.8,
+          "y": 1.5,
+          "z": 1
+        },
+        "floor": 1,
+        "room": "bathroom",
+        "zone": "private"
+      },
+      "maintenance": {
+        "installDate": "2024-01-15T10:00:00Z",
+        "lastMaintenance": "2025-01-15T10:00:00Z",
+        "nextMaintenance": "2026-01-15T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-01-15T10:00:00Z"
+      },
+      "manufacturer": "Generic",
+      "manufacturingDate": "2024-01-15",
+      "metadata": {
+        "createdAt": "2024-01-15T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "Zigbee",
+          "PIR",
+          "motion_sensor",
+          "bathroom",
+          "apt_1001",
+          "occupancy",
+          "security",
+          "automation"
+        ],
+        "updatedAt": "2025-11-24T10:30:00-05:00",
+        "version": 1
+      },
+      "model": "PIR_SENSOR",
+      "modelId": "PIR_MOTION_SENSOR",
+      "name": "Sensor de Movimiento Baño - PIR Zigbee",
+      "networkInfo": {
+        "ieeeAddress": "0x00124b0028a12345",
+        "networkAddress": 12345,
+        "networkRole": "end_device",
+        "panId": "0x1234",
+        "protocol": "zigbee"
+      },
+      "powerSource": "battery",
+      "protocol": "zigbee",
+      "ranges": {
+        "battery": {
+          "max": 100,
+          "min": 0,
+          "unit": "percent"
+        },
+        "detectionRange": {
+          "max": 7,
+          "min": 1,
+          "unit": "meters"
+        },
+        "linkquality": {
+          "max": 255,
+          "min": 0,
+          "unit": "lqi"
+        }
+      },
+      "room": "bathroom",
+      "security": {
+        "authenticationMethod": "zigbee_standard",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2024-01-15T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ZB-PIR-2024-BATHROOM-001",
+      "status": "online",
+      "supportedFeatures": {
+        "batteryMonitoring": true,
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "illuminanceThreshold": true,
+        "motionDetection": true,
+        "occupancySensing": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "zigbee2mqtt/ZB-B001-apt_1001-BATHROOM-PIR-01/availability",
+        "get": "zigbee2mqtt/ZB-B001-apt_1001-BATHROOM-PIR-01/get",
+        "set": "zigbee2mqtt/ZB-B001-apt_1001-BATHROOM-PIR-01/set",
+        "state": "zigbee2mqtt/ZB-B001-apt_1001-BATHROOM-PIR-01"
+      },
+      "uptime": 2592000,
+      "usageStats": {
+        "averageDailyUsage": 86400,
+        "energyConsumption": {
+          "averageDailyKwh": 0.0001,
+          "lastCalculated": "2025-11-24T00:00:00Z",
+          "totalKwh": 0.03
+        },
+        "lastOperation": "2025-11-24T10:28:15-05:00",
+        "motionDetections": {
+          "dailyAverage": 82,
+          "last24Hours": 78,
+          "last30Days": 2450,
+          "last7Days": 574,
+          "total": 245
+        },
+        "totalOnTime": 2592000,
+        "totalOperations": 2592000
+      },
+      "validation": {
+        "lastValidated": "2025-11-24T10:30:00-05:00",
+        "nextValidation": "2025-11-24T10:35:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ZB-B001-apt_1001-BATHROOM-SW-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": false,
+        "room": "bathroom",
+        "roomType": "bathroom",
+        "zone": "private"
+      },
+      "calibration": {
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "switch"
+      ],
+      "config": {
+        "brightness": {
+          "default": 128,
+          "max": 254,
+          "min": 1
+        },
+        "powerOnBehavior": "previous_state",
+        "reportingInterval": 60,
+        "transitionTime": 300
+      },
+      "connectionQuality": {
+        "lastSignalUpdate": "2025-12-07T02:48:39.884Z",
+        "linkquality": 156,
+        "lqi": 255,
+        "rssi": -45,
+        "signalStrength": -45
+      },
+      "dependencies": {
+        "requiredByDevices": [
+          "ZB-B001-apt_1001-BATHROOM-SW-02"
+        ]
+      },
+      "deviceId": "ZB-B001-apt_1001-BATHROOM-SW-01",
+      "errorLog": {
+        "lastError": {
+          "message": "Device did not respond within 5 seconds",
+          "resolved": true,
+          "timestamp": "2025-11-20T15:30:00Z",
+          "type": "connection_timeout"
+        },
+        "totalErrors": 3
+      },
+      "execution": {
+        "averageExecutionTime": 1.2,
+        "executionCount": 45,
+        "lastExecuted": "2025-11-21T06:00:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 1.1
+      },
+      "firmwareVersion": "1.0.3",
+      "groups": [
+        "group_bathroom_lights",
+        "group_apt_1001_all"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "switch",
+          "domain": "switch",
+          "entityId": "switch.bathroom_switch_01",
+          "integrationType": "zigbee2mqtt"
+        },
+        "zigbee2mqtt": {
+          "description": "Interruptor principal del baño",
+          "exposes": [
+            "switch(state)"
+          ],
+          "friendlyName": "Bathroom Switch 01",
+          "fromZigbee": [
+            "ts0011_on_off"
+          ],
+          "toZigbee": [
+            "state"
+          ]
+        }
+      },
+      "lastKnownState": {
+        "linkquality": 156,
+        "state": "OFF",
+        "timestamp": "2025-12-07T02:48:39.884Z"
+      },
+      "lastSeen": "2025-12-07T02:48:39.884Z",
+      "limits": {
+        "maxBrightness": 254,
+        "minBrightness": 1
+      },
+      "location": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 2.5,
+          "y": 1.2,
+          "z": 3
+        },
+        "floor": 1,
+        "room": "bathroom",
+        "zone": "private"
+      },
+      "maintenance": {
+        "installDate": "2024-01-15T10:00:00Z",
+        "lastMaintenance": "2025-01-15T10:00:00Z",
+        "nextMaintenance": "2026-01-15T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-01-15T10:00:00Z"
+      },
+      "manufacturer": "Tuya",
+      "manufacturingDate": "2024-01-15",
+      "metadata": {
+        "createdAt": "2024-01-15T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "zigbee",
+          "switch",
+          "bathroom",
+          "apt_1001"
+        ],
+        "updatedAt": "2025-12-07T02:48:39.884Z",
+        "version": 1
+      },
+      "model": "TS0011",
+      "modelId": "TS0011_switch_module",
+      "name": "Interruptor baño principal",
+      "networkInfo": {
+        "coordinatorAddress": "0x00124b0012345678",
+        "endpoint": 1,
+        "ieeeAddress": "0x00124b001234567a",
+        "networkId": "zigbee_network_001",
+        "networkRole": "router",
+        "parentAddress": "0x00124b0012345679"
+      },
+      "payloads": {
+        "off": {
+          "state": "OFF"
+        },
+        "on": {
+          "state": "ON"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "zigbee2mqtt",
+      "ranges": {
+        "brightness": {
+          "max": 254,
+          "min": 1
+        }
+      },
+      "room": "baño",
+      "security": {
+        "authenticationMethod": "zigbee3",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2025-01-15T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ZB-2024-001234",
+      "status": "online",
+      "supportedFeatures": {
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "scenes": true,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "zigbee2mqtt/bridge/state",
+        "command": "zigbee2mqtt/ZB-B001-apt_1001-BATHROOM-SW-01/set",
+        "telemetry": "zigbee2mqtt/ZB-B001-apt_1001-BATHROOM-SW-01"
+      },
+      "uptime": 86400,
+      "usageStats": {
+        "averageDailyUsage": 1,
+        "energyConsumption": {
+          "averageDailyKwh": 0.15,
+          "lastCalculated": "2025-11-21T00:00:00Z",
+          "totalKwh": 45.2
+        },
+        "lastOperation": "2025-12-07T02:48:39.884Z",
+        "totalOnTime": 864177,
+        "totalOperations": 38
+      },
+      "validation": {
+        "lastValidated": "2025-11-21T21:15:48-05:00",
+        "nextValidation": "2025-11-21T21:20:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ZB-B001-apt_1001-BEDROOM-SW-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": false,
+        "room": "bedroom",
+        "roomType": "bedroom",
+        "zone": "private"
+      },
+      "calibration": {
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "switch"
+      ],
+      "config": {
+        "brightness": {
+          "default": 128,
+          "max": 254,
+          "min": 1
+        },
+        "powerOnBehavior": "previous_state",
+        "reportingInterval": 60,
+        "transitionTime": 300
+      },
+      "connectionQuality": {
+        "lastSignalUpdate": "2025-12-05T20:46:29.753Z",
+        "linkquality": 156,
+        "lqi": 255,
+        "rssi": -45,
+        "signalStrength": -45
+      },
+      "dependencies": {
+        "requiredByDevices": [
+          "ZB-B001-apt_1001-BEDROOM-SW-02"
+        ]
+      },
+      "deviceId": "ZB-B001-apt_1001-BEDROOM-SW-01",
+      "errorLog": {
+        "lastError": {
+          "message": "Device did not respond within 5 seconds",
+          "resolved": true,
+          "timestamp": "2025-11-20T15:30:00Z",
+          "type": "connection_timeout"
+        },
+        "totalErrors": 3
+      },
+      "execution": {
+        "averageExecutionTime": 1.2,
+        "executionCount": 45,
+        "lastExecuted": "2025-11-21T06:00:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 1.1
+      },
+      "firmwareVersion": "1.0.3",
+      "groups": [
+        "group_bedroom_lights",
+        "group_apt_1001_all"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "switch",
+          "domain": "switch",
+          "entityId": "switch.bedroom_switch_01",
+          "integrationType": "zigbee2mqtt"
+        },
+        "zigbee2mqtt": {
+          "description": "Interruptor principal del dormitorio",
+          "exposes": [
+            "switch(state)"
+          ],
+          "friendlyName": "Bedroom Switch 01",
+          "fromZigbee": [
+            "ts0011_on_off"
+          ],
+          "toZigbee": [
+            "state"
+          ]
+        }
+      },
+      "lastKnownState": {
+        "linkquality": 156,
+        "state": "OFF",
+        "timestamp": "2025-12-05T20:46:29.753Z"
+      },
+      "lastSeen": "2025-12-05T20:46:29.753Z",
+      "limits": {
+        "maxBrightness": 254,
+        "minBrightness": 1
+      },
+      "location": {
+        "apartmentId": "apt_1001",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 2.5,
+          "y": 1.2,
+          "z": 3
+        },
+        "floor": 1,
+        "room": "bedroom",
+        "zone": "private"
+      },
+      "maintenance": {
+        "installDate": "2024-01-15T10:00:00Z",
+        "lastMaintenance": "2025-01-15T10:00:00Z",
+        "nextMaintenance": "2026-01-15T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-01-15T10:00:00Z"
+      },
+      "manufacturer": "Tuya",
+      "manufacturingDate": "2024-01-15",
+      "metadata": {
+        "createdAt": "2024-01-15T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "zigbee",
+          "switch",
+          "bedroom",
+          "apt_1001"
+        ],
+        "updatedAt": "2025-12-05T20:46:29.753Z",
+        "version": 1
+      },
+      "model": "TS0011",
+      "modelId": "TS0011_switch_module",
+      "name": "Interruptor dormitorio principal",
+      "networkInfo": {
+        "coordinatorAddress": "0x00124b0012345678",
+        "endpoint": 1,
+        "ieeeAddress": "0x00124b001234567a",
+        "networkId": "zigbee_network_001",
+        "networkRole": "router",
+        "parentAddress": "0x00124b0012345679"
+      },
+      "payloads": {
+        "off": {
+          "state": "OFF"
+        },
+        "on": {
+          "state": "ON"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "zigbee2mqtt",
+      "ranges": {
+        "brightness": {
+          "max": 254,
+          "min": 1
+        }
+      },
+      "room": "dormitorio",
+      "security": {
+        "authenticationMethod": "zigbee3",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2025-01-15T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ZB-2024-001234",
+      "status": "offline",
+      "supportedFeatures": {
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "scenes": true,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "zigbee2mqtt/bridge/state",
+        "command": "zigbee2mqtt/ZB-B001-apt_1001-BEDROOM-SW-01/set",
+        "telemetry": "zigbee2mqtt/ZB-B001-apt_1001-BEDROOM-SW-01"
+      },
+      "uptime": 86400,
+      "usageStats": {
+        "averageDailyUsage": 1,
+        "energyConsumption": {
+          "averageDailyKwh": 0.15,
+          "lastCalculated": "2025-11-21T00:00:00Z",
+          "totalKwh": 45.2
+        },
+        "lastOperation": "2025-12-05T20:46:29.753Z",
+        "totalOnTime": 866060,
+        "totalOperations": 4
+      },
+      "validation": {
+        "lastValidated": "2025-11-21T21:15:48-05:00",
+        "nextValidation": "2025-11-21T21:20:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ZB-B001-common-ENTRANCE-LOCK-YALE-YRD256-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": false,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "common",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": true,
+        "room": "entrance",
+        "roomType": "entrance",
+        "zone": "common"
+      },
+      "battery": {
+        "batteryCount": 4,
+        "batteryLevel": 85,
+        "batteryLowThreshold": 20,
+        "batteryType": "AA",
+        "estimatedBatteryLife": 365,
+        "estimatedDailyOpenings": 10,
+        "lastBatteryUpdate": "2025-12-26T10:00:00Z",
+        "lowBatteryAlert": false
+      },
+      "calibration": {
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "lock",
+        "unlock",
+        "battery_monitoring",
+        "code_management",
+        "auto_lock",
+        "manual_override",
+        "tamper_detection"
+      ],
+      "config": {
+        "autoLockDelay": 0,
+        "autoLockEnabled": true,
+        "codeCount": 25,
+        "maxCodes": 25,
+        "reportingInterval": 60,
+        "transitionTime": 300,
+        "voiceLanguages": [
+          "es",
+          "en"
+        ],
+        "voiceMenuEnabled": true
+      },
+      "connectionQuality": {
+        "lastSignalUpdate": "2025-12-26T10:00:00Z",
+        "linkquality": 156,
+        "lqi": 255,
+        "rssi": -45,
+        "signalStrength": -45
+      },
+      "deviceId": "ZB-B001-common-ENTRANCE-LOCK-01",
+      "errorLog": {
+        "totalErrors": 0
+      },
+      "execution": {
+        "averageExecutionTime": 1.5,
+        "executionCount": 1250,
+        "lastExecuted": "2025-12-26T10:00:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 1.2
+      },
+      "firmwareVersion": "1.0.0",
+      "groups": [
+        "group_entrance_devices",
+        "group_security_locks",
+        "group_common_area_devices"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "lock",
+          "domain": "lock",
+          "entityId": "lock.entrance_lock_01",
+          "integrationType": "zigbee2mqtt"
+        },
+        "zigbee2mqtt": {
+          "description": "Cerrojo Digital Yale YRD256 - Entrada Peatonal",
+          "exposes": [
+            "lock(state)",
+            "battery",
+            "linkquality"
+          ],
+          "friendlyName": "Entrance Lock YRD256",
+          "fromZigbee": [
+            "yale_lock_state"
+          ],
+          "toZigbee": [
+            "state"
+          ]
+        }
+      },
+      "lastKnownState": {
+        "battery": {
+          "lastRead": "2025-12-26T10:00:00Z",
+          "level": 85,
+          "status": "good",
+          "voltage": 6
+        },
+        "linkquality": {
+          "lastRead": "2025-12-26T10:00:00Z",
+          "quality": 156,
+          "status": "good"
+        },
+        "lock": {
+          "lastOperation": "2025-12-26T09:45:00Z",
+          "lockState": "locked",
+          "method": "code",
+          "status": "locked",
+          "timestamp": "2025-12-26T10:00:00Z"
+        },
+        "tamper": {
+          "detected": false,
+          "status": "normal"
+        },
+        "timestamp": "2025-12-26T10:00:00Z"
+      },
+      "lastSeen": "2025-12-26T10:00:00Z",
+      "limits": {
+        "codeLengthMax": 8,
+        "codeLengthMin": 4,
+        "maxCodes": 25,
+        "minCodes": 1
+      },
+      "location": {
+        "apartmentId": "common",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        "floor": 1,
+        "room": "entrance",
+        "zone": "common"
+      },
+      "maintenance": {
+        "installDate": "2025-12-01T10:00:00Z",
+        "lastMaintenance": "2025-12-01T10:00:00Z",
+        "nextMaintenance": "2026-12-01T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-12-01T10:00:00Z"
+      },
+      "manufacturer": "Yale",
+      "manufacturingDate": "2025-11-01",
+      "metadata": {
+        "createdAt": "2025-12-01T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "zigbee",
+          "lock",
+          "yale",
+          "yrd256",
+          "entrance",
+          "security",
+          "common",
+          "battery",
+          "code_access"
+        ],
+        "updatedAt": "2025-12-26T10:00:00Z",
+        "version": 1
+      },
+      "model": "YRD256",
+      "modelId": "YRD256_Digital_Lock",
+      "name": "Cerrojo Digital Yale YRD256 - Entrada Peatonal",
+      "networkInfo": {
+        "coordinatorAddress": "0x00124b0012345678",
+        "endpoint": 1,
+        "ieeeAddress": "0x00124b0028a12346",
+        "networkId": "zigbee_network_001",
+        "networkRole": "end_device",
+        "parentAddress": "0x00124b0012345679"
+      },
+      "payloads": {
+        "lock": {
+          "state": "LOCK"
+        },
+        "read_battery": {
+          "action": "read_battery"
+        },
+        "read_lock_state": {
+          "action": "read_lock_state"
+        },
+        "unlock": {
+          "state": "UNLOCK"
+        }
+      },
+      "powerSource": "battery",
+      "protocol": "zigbee2mqtt",
+      "ranges": {
+        "battery": {
+          "max": 100,
+          "min": 0,
+          "unit": "percent"
+        },
+        "lockState": {
+          "values": [
+            "LOCKED",
+            "UNLOCKED"
+          ]
+        }
+      },
+      "room": "entrada",
+      "security": {
+        "authenticationMethod": "zigbee3",
+        "certification": "ANSI/BHMA A156.36 Grade 2",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2025-12-01T10:00:00Z",
+        "securityLevel": "high",
+        "tamperDetection": true
+      },
+      "serialNumber": "YRD-2025-ENTRANCE-001",
+      "status": "online",
+      "supportedFeatures": {
+        "autoLock": true,
+        "batteryMonitoring": true,
+        "codeManagement": true,
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "manualOverride": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "tamperDetection": true,
+        "temperatureControl": false,
+        "voiceMenu": true
+      },
+      "topics": {
+        "availability": "zigbee2mqtt/bridge/state",
+        "command": "zigbee2mqtt/ZB-B001-common-ENTRANCE-LOCK-01/set",
+        "telemetry": "zigbee2mqtt/ZB-B001-common-ENTRANCE-LOCK-01"
+      },
+      "uptime": 2160000,
+      "usageStats": {
+        "averageDailyUsage": 10,
+        "energyConsumption": {
+          "averageDailyKwh": 0.0001,
+          "lastCalculated": "2025-12-26T00:00:00Z",
+          "totalKwh": 0.025
+        },
+        "lastOperation": "2025-12-26T09:45:00Z",
+        "lockOperations": {
+          "dailyAverage": 10,
+          "last24Hours": 12,
+          "last30Days": 300,
+          "last7Days": 70,
+          "total": 1250
+        },
+        "totalOnTime": 2160000,
+        "totalOperations": 1250
+      },
+      "validation": {
+        "lastValidated": "2025-12-26T10:00:00Z",
+        "nextValidation": "2025-12-26T10:05:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ZB-B001-common-ENTRANCE-MOTOR-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "common",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": true,
+        "room": "entrance",
+        "roomType": "entrance",
+        "zone": "common"
+      },
+      "calibration": {
+        "requiresCalibration": false
+      },
+      "capabilities": [
+        "motor",
+        "open",
+        "close"
+      ],
+      "config": {
+        "closeDuration": 5000,
+        "openDuration": 5000,
+        "reportingInterval": 60,
+        "transitionTime": 300
+      },
+      "connectionQuality": {
+        "lastSignalUpdate": "2025-12-26T10:00:00Z",
+        "linkquality": 156,
+        "lqi": 255,
+        "rssi": -45,
+        "signalStrength": -45
+      },
+      "dependencies": {
+        "requiredByDevices": [
+          "ESP-B001-common-ENTRANCE-ESP32-01"
+        ]
+      },
+      "deviceId": "ZB-B001-common-ENTRANCE-MOTOR-01",
+      "errorLog": {
+        "totalErrors": 0
+      },
+      "execution": {
+        "averageExecutionTime": 5.2,
+        "executionCount": 850,
+        "lastExecuted": "2025-12-26T09:50:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 5
+      },
+      "firmwareVersion": "1.0.3",
+      "groups": [
+        "group_entrance_devices",
+        "group_common_area_motors",
+        "group_security_devices"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "motor",
+          "domain": "cover",
+          "entityId": "cover.entrance_motor_01",
+          "integrationType": "mqtt"
+        },
+        "mqtt": {
+          "description": "Motor de puerta principal - Entrada",
+          "friendlyName": "Entrance Gate Motor",
+          "qos": 1,
+          "retain": true
+        }
+      },
+      "lastKnownState": {
+        "linkquality": 156,
+        "position": 0,
+        "state": "CLOSED",
+        "timestamp": "2025-12-26T10:00:00Z"
+      },
+      "lastSeen": "2025-12-26T10:00:00Z",
+      "limits": {
+        "maxPosition": 100,
+        "maxSpeed": 100,
+        "minPosition": 0,
+        "minSpeed": 0
+      },
+      "location": {
+        "apartmentId": "common",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0,
+          "z": 1
+        },
+        "floor": 1,
+        "room": "entrance",
+        "zone": "common"
+      },
+      "maintenance": {
+        "installDate": "2025-12-01T10:00:00Z",
+        "lastMaintenance": "2025-12-01T10:00:00Z",
+        "nextMaintenance": "2026-06-01T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-12-01T10:00:00Z"
+      },
+      "manufacturer": "Generic",
+      "manufacturingDate": "2025-11-01",
+      "metadata": {
+        "createdAt": "2025-12-01T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "motor",
+          "gate",
+          "entrance",
+          "common",
+          "security",
+          "mqtt"
+        ],
+        "updatedAt": "2025-12-26T10:00:00Z",
+        "version": 1
+      },
+      "model": "Gate Motor",
+      "modelId": "ENTRANCE_GATE_MOTOR",
+      "name": "Motor Puerta Principal - Entrada",
+      "networkInfo": {
+        "dns": "8.8.8.8",
+        "gateway": "192.168.1.1",
+        "ipAddress": "192.168.1.109",
+        "macAddress": "AA:BB:CC:DD:EE:09",
+        "networkId": "wifi_network_001",
+        "networkRole": "client",
+        "ssid": "CasaColor_WiFi",
+        "subnet": "255.255.255.0"
+      },
+      "payloads": {
+        "close": {
+          "action": "close",
+          "position": 0
+        },
+        "open": {
+          "action": "open",
+          "position": 100
+        },
+        "set_position": {
+          "action": "set_position",
+          "position": 50
+        },
+        "stop": {
+          "action": "stop"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "mqtt",
+      "ranges": {
+        "position": {
+          "max": 100,
+          "min": 0,
+          "unit": "percent"
+        },
+        "state": {
+          "values": [
+            "OPEN",
+            "CLOSED",
+            "OPENING",
+            "CLOSING",
+            "STOPPED"
+          ]
+        }
+      },
+      "room": "entrada",
+      "security": {
+        "authenticationMethod": "wpa2",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2025-12-01T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ZB-2025-ENTRANCE-MOTOR-001",
+      "status": "online",
+      "supportedFeatures": {
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "positionControl": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "buildings/B001/zones/common/ENTRANCE/devices/MOTOR-01/status",
+        "command": "buildings/B001/zones/common/ENTRANCE/devices/MOTOR-01/commands",
+        "position": "buildings/B001/zones/common/ENTRANCE/devices/MOTOR-01/position",
+        "state": "buildings/B001/zones/common/ENTRANCE/devices/MOTOR-01/state",
+        "telemetry": "buildings/B001/zones/common/ENTRANCE/devices/MOTOR-01/telemetry"
+      },
+      "uptime": 2160000,
+      "usageStats": {
+        "averageDailyUsage": 15,
+        "energyConsumption": {
+          "averageDailyKwh": 0.25,
+          "lastCalculated": "2025-12-26T00:00:00Z",
+          "totalKwh": 54.75
+        },
+        "lastOperation": "2025-12-26T09:50:00Z",
+        "totalOnTime": 4250000,
+        "totalOperations": 850
+      },
+      "validation": {
+        "lastValidated": "2025-12-26T10:00:00Z",
+        "nextValidation": "2025-12-26T10:05:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    },
+    "ZB-B001-local-ENTRANCE-MOTOR-01": {
+      "accessControl": {
+        "automationAccess": true,
+        "guestAccess": false,
+        "manualOverride": true,
+        "ownerAccess": true,
+        "scheduleAccess": true,
+        "tenantAccess": true
+      },
+      "apartmentContext": {
+        "apartmentId": "local",
+        "buildingId": "B001",
+        "floor": 1,
+        "isCommonArea": false,
+        "room": "entrance",
+        "roomType": "entrance",
+        "zone": "local"
+      },
+      "capabilities": [
+        "motor",
+        "open",
+        "close"
+      ],
+      "config": {
+        "closeDuration": 5000,
+        "openDuration": 5000,
+        "reportingInterval": 60,
+        "transitionTime": 300
+      },
+      "connectionQuality": {
+        "lastSignalUpdate": "2025-12-26T10:00:00Z",
+        "linkquality": 156,
+        "lqi": 255,
+        "rssi": -45,
+        "signalStrength": -45
+      },
+      "dependencies": {
+        "requiredByDevices": [
+          "ESP-B001-local-ENTRANCE-ESP32-01"
+        ]
+      },
+      "deviceId": "ZB-B001-local-ENTRANCE-MOTOR-01",
+      "errorLog": {
+        "totalErrors": 0
+      },
+      "execution": {
+        "averageExecutionTime": 5.2,
+        "executionCount": 850,
+        "lastExecuted": "2025-12-26T09:50:00Z",
+        "lastExecutionStatus": "success",
+        "lastExecutionTime": 5
+      },
+      "firmwareVersion": "1.0.3",
+      "groups": [
+        "group_entrance_devices",
+        "group_local_area_motors",
+        "group_security_devices"
+      ],
+      "hardwareVersion": "1.0",
+      "healthStatus": "healthy",
+      "integration": {
+        "homeAssistant": {
+          "deviceClass": "motor",
+          "domain": "cover",
+          "entityId": "cover.entrance_motor_01",
+          "integrationType": "mqtt"
+        },
+        "mqtt": {
+          "description": "Motor de puerta principal - Local",
+          "friendlyName": "Entrance Gate Motor - Local",
+          "qos": 1,
+          "retain": true
+        }
+      },
+      "lastKnownState": {
+        "linkquality": 156,
+        "position": 0,
+        "state": "CLOSED",
+        "timestamp": "2025-12-26T10:00:00Z"
+      },
+      "lastSeen": "2025-12-26T10:00:00Z",
+      "limits": {
+        "maxPosition": 100,
+        "maxSpeed": 100,
+        "minPosition": 0,
+        "minSpeed": 0
+      },
+      "location": {
+        "apartmentId": "local",
+        "buildingId": "B001",
+        "coordinates": {
+          "x": 0.5,
+          "y": 0,
+          "z": 1
+        },
+        "floor": 1,
+        "room": "entrance",
+        "zone": "local"
+      },
+      "maintenance": {
+        "installDate": "2025-12-01T10:00:00Z",
+        "lastMaintenance": "2025-12-01T10:00:00Z",
+        "nextMaintenance": "2026-06-01T10:00:00Z",
+        "serviceProvider": "Casa Color IoT Team",
+        "warrantyExpiry": "2027-12-01T10:00:00Z"
+      },
+      "manufacturer": "Generic",
+      "manufacturingDate": "2025-11-01",
+      "metadata": {
+        "createdAt": "2025-12-01T10:00:00Z",
+        "createdBy": "iot_admin",
+        "tags": [
+          "motor",
+          "gate",
+          "entrance",
+          "local",
+          "security",
+          "mqtt"
+        ],
+        "updatedAt": "2025-12-26T10:00:00Z",
+        "version": 1
+      },
+      "model": "Gate Motor",
+      "modelId": "ENTRANCE_GATE_MOTOR",
+      "name": "Motor Puerta Principal - Local",
+      "networkInfo": {
+        "dns": "8.8.8.8",
+        "gateway": "192.168.1.1",
+        "ipAddress": "192.168.1.109",
+        "macAddress": "AA:BB:CC:DD:EE:09",
+        "networkId": "wifi_network_001",
+        "networkRole": "client",
+        "ssid": "CasaColor_WiFi",
+        "subnet": "255.255.255.0"
+      },
+      "payloads": {
+        "close": {
+          "action": "close",
+          "position": 0
+        },
+        "off": {
+          "action": "off"
+        },
+        "on": {
+          "action": "on"
+        },
+        "open": {
+          "action": "open",
+          "position": 100
+        },
+        "set_position": {
+          "action": "set_position",
+          "position": 50
+        },
+        "stop": {
+          "action": "stop"
+        }
+      },
+      "powerSource": "mains",
+      "protocol": "mqtt",
+      "ranges": {
+        "position": {
+          "max": 100,
+          "min": 0,
+          "unit": "percent"
+        },
+        "state": {
+          "values": [
+            "OPEN",
+            "CLOSED",
+            "OPENING",
+            "CLOSING",
+            "STOPPED"
+          ]
+        }
+      },
+      "room": "entrada",
+      "security": {
+        "authenticationMethod": "wpa2",
+        "encryptionEnabled": true,
+        "lastSecurityUpdate": "2025-12-01T10:00:00Z",
+        "securityLevel": "high"
+      },
+      "serialNumber": "ZB-2025-ENTRANCE-MOTOR-001",
+      "status": "online",
+      "supportedFeatures": {
+        "colorControl": false,
+        "dimming": false,
+        "groups": true,
+        "positionControl": true,
+        "realTimeMonitoring": true,
+        "scenes": false,
+        "scheduling": true,
+        "temperatureControl": false
+      },
+      "topics": {
+        "availability": "buildings/B001/zones/local/ENTRANCE/devices/MOTOR-01/status",
+        "command": "buildings/B001/zones/local/ENTRANCE/devices/MOTOR-01/commands",
+        "position": "buildings/B001/zones/local/ENTRANCE/devices/MOTOR-01/position",
+        "state": "buildings/B001/zones/local/ENTRANCE/devices/MOTOR-01/state",
+        "telemetry": "buildings/B001/zones/local/ENTRANCE/devices/MOTOR-01/telemetry"
+      },
+      "uptime": 2160000,
+      "usageStats": {
+        "averageDailyUsage": 15,
+        "energyConsumption": {
+          "averageDailyKwh": 0.25,
+          "lastCalculated": "2025-12-26T00:00:00Z",
+          "totalKwh": 54.75
+        },
+        "lastOperation": "2025-12-26T09:50:00Z",
+        "totalOnTime": 4250000,
+        "totalOperations": 850
+      },
+      "validation": {
+        "lastValidated": "2025-12-26T10:00:00Z",
+        "nextValidation": "2025-12-26T10:05:00Z",
+        "requiresValidation": true,
+        "validationInterval": 300,
+        "validationStatus": "success"
+      }
+    }
+  },
+  "levels": {
+    "level_15": {
+      "description": "Tu Casa Color es un modelo de sostenibilidad, eficiencia y salud para las futuras generaciones. Has alcanzado el nivel más alto en eco-inteligencia.",
+      "level": 15,
+      "name": "Raíz Dorada",
+      "pointsRequired": 7000
+    }
+  },
+  "metrics": {
+    "apt_1001": {
+      "airQuality": {
+        "alerts": [
+          {
+            "actionRecommended": "Ventilar habitación o activar extractor",
+            "condition": "Sobrepaso temporal detectado durante la noche",
+            "level": "medio",
+            "threshold": "> 900 ppm",
+            "timestamp": "2025-11-25T04:30:00Z",
+            "type": "high_co2"
+          },
+          {
+            "actionRecommended": "Mantener campana extractora activada",
+            "condition": "Incremento leve por actividad en la cocina",
+            "level": "bajo",
+            "threshold": "> 25 µg/m³",
+            "timestamp": "2025-11-26T18:45:00Z",
+            "type": "pm25_rise"
+          }
+        ],
+        "details": [
+          {
+            "image": "../../../assets/air-quality.png",
+            "name": "calidad_actual",
+            "type": "general",
+            "unit": "ppm",
+            "value": 120
+          },
+          {
+            "image": "../../../assets/voc.png",
+            "name": "voc",
+            "type": "voc",
+            "unit": "ppm",
+            "value": 0.9
+          },
+          {
+            "image": "../../../assets/co2.png",
+            "name": "co2",
+            "type": "co2",
+            "unit": "ppm",
+            "value": 650
+          },
+          {
+            "image": "../../../assets/pm25.png",
+            "name": "pm25",
+            "type": "pm25",
+            "unit": "µg/m³",
+            "value": 12
+          },
+          {
+            "image": "../../../assets/greenpoints.png",
+            "name": "puntos",
+            "type": "points",
+            "unit": "pts",
+            "value": 18
+          }
+        ],
+        "history": {
+          "2025-11-30": {
+            "calidad_actual": {
+              "image": "../../../assets/air-quality.png",
+              "type": "general",
+              "unit": "ppm",
+              "value": 120
+            },
+            "co2": {
+              "image": "../../../assets/co2.png",
+              "type": "co2",
+              "unit": "ppm",
+              "value": 650
+            },
+            "iaqCategory": "Muy Bueno",
+            "iaqScore": 87,
+            "pm25": {
+              "image": "../../../assets/pm25.png",
+              "type": "pm25",
+              "unit": "µg/m³",
+              "value": 12
+            },
+            "riskLevel": "bajo",
+            "ventilation": "normal",
+            "voc": {
+              "image": "../../../assets/voc.png",
+              "type": "voc",
+              "unit": "ppm",
+              "value": 0.9
+            },
+            "whoCompliance": true
+          }
+        },
+        "predictions": {
+          "next24h": {
+            "confidence": 0.86,
+            "expectedCO2": 720,
+            "expectedIaqScore": 82,
+            "expectedPM25": 14,
+            "ventilationNeed": "mínima"
+          },
+          "next7days": {
+            "averageIaqScore": 85,
+            "co2Peak": 780,
+            "confidence": 0.79,
+            "pm25Peak": 22,
+            "riskLevel": "bajo"
+          }
+        },
+        "recommendations": [
+          "Abrir ventanas 10 minutos en la mañana para renovar el aire.",
+          "Activar modo eco de ventilación si el VOC supera 1.2 ppm.",
+          "Evitar aerosoles para mantener VOC en niveles óptimos.",
+          "Si CO₂ supera 1000 ppm, activar ventilación automatizada."
+        ],
+        "summary": {
+          "co2Level": 650,
+          "co2Status": "óptimo",
+          "color": "#2196F3",
+          "iaqCategory": "Muy Bueno",
+          "iaqScore": 87,
+          "icon": "🌬️",
+          "percentage": 70,
+          "period": "Hoy",
+          "pm25Level": 12,
+          "pm25Status": "saludable",
+          "riskLevel": "bajo",
+          "status": "excelente",
+          "title": "Calidad del Aire",
+          "trend": "down",
+          "trendValue": "-20%",
+          "unit": "ppm",
+          "value": 120,
+          "ventilationRecommendation": "Mantener ventilación básica, niveles en rango saludable",
+          "vocIndex": 0.9,
+          "whoCompliance": true
+        }
+      },
+      "climate": {
+        "alerts": [
+          {
+            "actionRecommended": "Activar ventilación o aire acondicionado eco",
+            "condition": "Aumento por temperatura externa",
+            "level": "medio",
+            "threshold": "> 28°C",
+            "timestamp": "2025-11-26T15:20:00Z",
+            "type": "temp_high"
+          },
+          {
+            "actionRecommended": "Activar extractor durante 10 minutos",
+            "condition": "Humedad elevada detectada en el baño",
+            "level": "bajo",
+            "threshold": "> 60%",
+            "timestamp": "2025-11-25T22:00:00Z",
+            "type": "humidity_high"
+          }
+        ],
+        "details": [
+          {
+            "image": "../../../assets/temperature.png",
+            "name": "temperatura_actual",
+            "type": "temperature",
+            "unit": "°C",
+            "value": 24.5
+          },
+          {
+            "image": "../../../assets/thermometer.png",
+            "name": "sensacion_termica",
+            "type": "feels_like",
+            "unit": "°C",
+            "value": 25.1
+          },
+          {
+            "image": "../../../assets/humidity.png",
+            "name": "humedad",
+            "type": "humidity",
+            "unit": "%",
+            "value": 56
+          },
+          {
+            "image": "../../../assets/greenpoints.png",
+            "name": "puntos",
+            "type": "points",
+            "unit": "pts",
+            "value": 14
+          }
+        ],
+        "history": {
+          "2025-11-30": {
+            "comfortIndex": 82,
+            "comfortLevel": "Óptimo",
+            "humedad": {
+              "image": "../../../assets/humidity.png",
+              "type": "humidity",
+              "unit": "%",
+              "value": 56
+            },
+            "riskLevel": "bajo",
+            "sensacion_termica": {
+              "image": "../../../assets/thermometer.png",
+              "type": "feels_like",
+              "unit": "°C",
+              "value": 25.1
+            },
+            "temperatura_actual": {
+              "image": "../../../assets/temperature.png",
+              "type": "temperature",
+              "unit": "°C",
+              "value": 24.5
+            }
+          }
+        },
+        "predictions": {
+          "next24h": {
+            "comfortIndex": 78,
+            "confidence": 0.88,
+            "expectedHumidity": 58,
+            "expectedTemp": 26.3,
+            "notes": "Ligero aumento por horas de sol en la tarde",
+            "riskLevel": "bajo"
+          },
+          "next7days": {
+            "averageTemp": 24.8,
+            "comfortIndex": 80,
+            "confidence": 0.76,
+            "humidityPeak": 64,
+            "riskLevel": "medio",
+            "tempPeak": 28.1
+          }
+        },
+        "recommendations": [
+          "Mantener el apartamento entre 21°C y 25°C para máximo confort.",
+          "Abrir ventanas por 5–10 minutos en la mañana para equilibrar humedad.",
+          "Evitar humedad prolongada sobre 60% para prevenir hongos.",
+          "Usar ventilación cruzada si la sensación térmica supera 26°C."
+        ],
+        "summary": {
+          "color": "#FF7043",
+          "comfortIndex": 82,
+          "comfortLevel": "Óptimo",
+          "feelsLike": 25.1,
+          "humidity": 56,
+          "humidityUnit": "%",
+          "icon": "🌡️",
+          "percentage": 68,
+          "period": "Hoy",
+          "recommendedRange": {
+            "humidityMax": 60,
+            "humidityMin": 40,
+            "tempMax": 25,
+            "tempMin": 21
+          },
+          "riskLevel": "bajo",
+          "status": "confortable",
+          "title": "Temperatura & Clima",
+          "trend": "up",
+          "trendValue": "+3%",
+          "unit": "°C",
+          "value": 24.5,
+          "ventilationRecommendation": "Mantener ventilación suave, clima en rango saludable"
+        }
+      },
+      "energy": {
+        "alerts": [
+          {
+            "actionRequired": true,
+            "condition": "Consumo superior al 95% de la capacidad del circuito",
+            "level": "alto",
+            "timestamp": "2025-11-29T22:10:00Z",
+            "type": "overload_risk"
+          },
+          {
+            "actionRequired": false,
+            "condition": "Consumo diario superior al promedio semanal",
+            "level": "medio",
+            "timestamp": "2025-11-25T15:45:00Z",
+            "type": "high_consumption"
+          }
+        ],
+        "details": [
+          {
+            "image": "../../../assets/battery-full.png",
+            "name": "consumo",
+            "type": "consumo",
+            "unit": "kWh",
+            "value": 3.2
+          },
+          {
+            "image": "../../../assets/down_red.png",
+            "name": "ahorro",
+            "type": "ahorro",
+            "unit": "kWh",
+            "value": 1.5
+          },
+          {
+            "image": "../../../assets/greenpoints.png",
+            "name": "puntos",
+            "type": "points",
+            "unit": "pts",
+            "value": 20
+          },
+          {
+            "image": "../../../assets/money.png",
+            "name": "costos",
+            "type": "cost",
+            "unit": "COP",
+            "value": 820
+          },
+          {
+            "image": "../../../assets/co2.png",
+            "name": "emisiones",
+            "type": "co2",
+            "unit": "kgCO2e",
+            "value": 1.76
+          },
+          {
+            "image": "../../../assets/solar-panel.png",
+            "name": "renovable",
+            "type": "renewable",
+            "unit": "%",
+            "value": 40
+          }
+        ],
+        "history": {
+          "2025-11-30": {
+            "ahorro": {
+              "image": "../../../assets/down_red.png",
+              "type": "ahorro",
+              "unit": "kWh",
+              "value": 1.5
+            },
+            "consumo": {
+              "image": "../../../assets/battery-full.png",
+              "type": "consumo",
+              "unit": "kWh",
+              "value": 3.2
+            },
+            "costos": {
+              "image": "../../../assets/money.png",
+              "type": "cost",
+              "unit": "COP",
+              "value": 820
+            },
+            "emisiones": {
+              "image": "../../../assets/co2.png",
+              "type": "co2",
+              "unit": "kgCO2e",
+              "value": 1.76
+            },
+            "overloadRisk": false,
+            "puntos": {
+              "image": "../../../assets/greenpoints.png",
+              "type": "points",
+              "unit": "pts",
+              "value": 20
+            },
+            "renovable": {
+              "image": "../../../assets/solar-panel.png",
+              "type": "renewable",
+              "unit": "%",
+              "value": 40
+            }
+          }
+        },
+        "predictions": {
+          "next24h": {
+            "confidence": 0.88,
+            "estimatedConsumption": 4.8,
+            "estimatedCost": 1200,
+            "unit": "kWh",
+            "unitCost": "COP"
+          },
+          "next30days": {
+            "co2Projected": 56,
+            "co2Unit": "kgCO2e",
+            "confidence": 0.81,
+            "estimatedConsumption": 102.5,
+            "estimatedCost": 27500,
+            "unit": "kWh",
+            "unitCost": "COP"
+          }
+        },
+        "summary": {
+          "co2Emissions": 1.76,
+          "co2Unit": "kgCO2e",
+          "color": "#FFB300",
+          "efficiencyScore": 82,
+          "estimatedCostUnit": "COP",
+          "estimatedMonthlyCost": 26500,
+          "icon": "⚡",
+          "overloadRisk": false,
+          "percentage": 65,
+          "period": "Hoy",
+          "renewableUsage": 40,
+          "riskLevel": "bajo",
+          "status": "bueno",
+          "title": "Energía",
+          "trend": "down",
+          "trendValue": "-15%",
+          "unit": "kWh",
+          "value": 3.2
+        }
+      },
+      "gas": {
+        "alerts": [
+          {
+            "actionRequired": true,
+            "condition": "Flujo continuo por más de 15 minutos",
+            "level": "alto",
+            "timestamp": "2025-11-29T14:35:00Z",
+            "type": "leak_risk"
+          },
+          {
+            "actionRequired": false,
+            "condition": "Consumo diario superó el promedio en +30%",
+            "level": "medio",
+            "timestamp": "2025-11-28T21:10:00Z",
+            "type": "high_consumption"
+          }
+        ],
+        "details": [
+          {
+            "image": "../../../assets/gas-burner.png",
+            "name": "consumo",
+            "type": "consumo",
+            "unit": "m³",
+            "value": 120
+          },
+          {
+            "image": "../../../assets/down_red.png",
+            "name": "ahorro",
+            "type": "ahorro",
+            "unit": "m³",
+            "value": 30
+          },
+          {
+            "image": "../../../assets/greenpoints.png",
+            "name": "puntos",
+            "type": "points",
+            "unit": "pts",
+            "value": 12
+          },
+          {
+            "image": "../../../assets/money.png",
+            "name": "costos",
+            "type": "cost",
+            "unit": "COP",
+            "value": 2900
+          },
+          {
+            "image": "../../../assets/eco-badge.png",
+            "name": "eficiencia",
+            "type": "efficiency",
+            "unit": "%",
+            "value": 88
+          },
+          {
+            "image": "../../../assets/shield.png",
+            "name": "riesgo",
+            "type": "risk",
+            "unit": "",
+            "value": "bajo"
+          }
+        ],
+        "history": {
+          "2025-11-30": {
+            "ahorro": {
+              "image": "../../../assets/down_red.png",
+              "type": "ahorro",
+              "unit": "m³",
+              "value": 30
+            },
+            "consumo": {
+              "image": "../../../assets/gas-burner.png",
+              "type": "consumo",
+              "unit": "m³",
+              "value": 120
+            },
+            "costos": {
+              "image": "../../../assets/money.png",
+              "type": "cost",
+              "unit": "COP",
+              "value": 2900
+            },
+            "eficiencia": {
+              "image": "../../../assets/eco-badge.png",
+              "type": "efficiency",
+              "unit": "%",
+              "value": 88
+            },
+            "leakDetected": false,
+            "puntos": {
+              "image": "../../../assets/greenpoints.png",
+              "type": "points",
+              "unit": "pts",
+              "value": 12
+            },
+            "riesgo": {
+              "image": "../../../assets/shield.png",
+              "type": "risk",
+              "unit": "",
+              "value": "bajo"
+            }
+          }
+        },
+        "predictions": {
+          "next24h": {
+            "confidence": 0.87,
+            "estimatedConsumption": 4.2,
+            "unit": "m³"
+          },
+          "next30days": {
+            "confidence": 0.81,
+            "estimatedConsumption": 128.5,
+            "estimatedCost": 79500,
+            "unit": "m³",
+            "unitCost": "COP"
+          }
+        },
+        "summary": {
+          "color": "#2196F3",
+          "efficiencyScore": 88,
+          "estimatedCostUnit": "COP",
+          "estimatedMonthlyCost": 87000,
+          "icon": "🔥",
+          "leakDetected": false,
+          "percentage": 70,
+          "period": "Hoy",
+          "riskLevel": "bajo",
+          "status": "excelente",
+          "title": "Gas",
+          "trend": "down",
+          "trendValue": "-20%",
+          "unit": "m³",
+          "value": 120
+        }
+      },
+      "plantHealth": {
+        "alerts": [
+          {
+            "actionRecommended": "Regar la planta pronto",
+            "level": "medio",
+            "threshold": "< 35%",
+            "timestamp": "2025-11-28T10:20:00Z",
+            "type": "low_soil_moisture"
+          }
+        ],
+        "details": [
+          {
+            "image": "../../../assets/soil.png",
+            "name": "humedad_suelo",
+            "type": "soil_moisture",
+            "unit": "%",
+            "value": 46
+          },
+          {
+            "image": "../../../assets/sunlight.png",
+            "name": "luz",
+            "type": "light",
+            "unit": "lux",
+            "value": 8900
+          },
+          {
+            "image": "../../../assets/thermometer.png",
+            "name": "temperatura",
+            "type": "temperature",
+            "unit": "°C",
+            "value": 23.4
+          },
+          {
+            "image": "../../../assets/greenpoints.png",
+            "name": "puntos",
+            "type": "points",
+            "unit": "pts",
+            "value": 10
+          }
+        ],
+        "history": {
+          "2025-11-30": {
+            "healthLevel": "Bueno",
+            "humiditySoil": 42,
+            "light": 7600,
+            "score": 78,
+            "temperature": 22.8
+          }
+        },
+        "predictions": {
+          "next24h": {
+            "confidence": 0.85,
+            "expectedHealth": 84,
+            "expectedHumiditySoil": 44,
+            "expectedLight": 9200
+          }
+        },
+        "recommendations": [
+          "Aumentar ligeramente la luz natural colocando la planta cerca de una ventana.",
+          "Mantener humedad del suelo entre 40% y 60%.",
+          "Evitar riegos excesivos para prevenir hongos."
+        ],
+        "summary": {
+          "color": "#4CAF50",
+          "healthLevel": "Óptimo",
+          "humiditySoil": 46,
+          "humidityUnit": "%",
+          "icon": "🪴",
+          "light": 8900,
+          "lightUnit": "lux",
+          "percentage": 82,
+          "period": "Hoy",
+          "plantType": "interior",
+          "status": "saludable",
+          "temperature": 23.4,
+          "title": "Vida y Salud de Plantas",
+          "trend": "up",
+          "trendValue": "+6%",
+          "unit": "score",
+          "unitTemperature": "°C",
+          "value": 82
+        }
+      },
+      "rain": {
+        "alerts": [
+          {
+            "actionRecommended": "Cerrar ventanas del balcón y monitorear filtraciones",
+            "level": "alto",
+            "threshold": "> 10mm",
+            "timestamp": "2025-11-29T16:10:00Z",
+            "type": "heavy_rain"
+          }
+        ],
+        "details": [
+          {
+            "image": "../../../assets/rain.png",
+            "name": "lluvia_acumulada",
+            "type": "rain_total",
+            "unit": "mm",
+            "value": 4.3
+          },
+          {
+            "image": "../../../assets/rain-intensity.png",
+            "name": "intensidad",
+            "type": "intensity",
+            "unit": "",
+            "value": "moderada"
+          },
+          {
+            "image": "../../../assets/water-cycle.png",
+            "name": "tasa_de_lluvia",
+            "type": "rain_rate",
+            "unit": "mm/h",
+            "value": 1.2
+          }
+        ],
+        "history": {
+          "2025-11-30": {
+            "maxRainHour": "16:00",
+            "rain": 6.8,
+            "rainRate": 2.1
+          }
+        },
+        "predictions": {
+          "next24h": {
+            "chanceOfRain": 75,
+            "confidence": 0.82,
+            "expectedRain": 7.1,
+            "rainPeaks": [
+              "14:00",
+              "20:00"
+            ]
+          }
+        },
+        "recommendations": [
+          "Activar modo lluvia: cerrar ventanas, ajustar ventilación.",
+          "Reducir riego de plantas para evitar exceso de humedad.",
+          "Notificar disponibilidad de agua lluvia almacenada."
+        ],
+        "summary": {
+          "color": "#2196F3",
+          "expectedRain": 6.1,
+          "icon": "🌧️",
+          "percentage": 55,
+          "period": "Hoy",
+          "rainIntensity": "moderada",
+          "rainRate": 1.2,
+          "rainRateUnit": "mm/h",
+          "status": "lluvioso",
+          "title": "Lluvia",
+          "trend": "up",
+          "trendValue": "+30%",
+          "unit": "mm",
+          "value": 4.3
+        }
+      },
+      "water": {
+        "alerts": [
+          {
+            "actionRequired": true,
+            "condition": "Consumo constante incluso sin actividad detectada",
+            "level": "alto",
+            "timestamp": "2025-11-27T02:15:00Z",
+            "type": "leak_risk"
+          },
+          {
+            "actionRequired": false,
+            "condition": "Consumo diario mayor al promedio semanal",
+            "level": "medio",
+            "timestamp": "2025-11-25T19:40:00Z",
+            "type": "high_consumption"
+          }
+        ],
+        "details": [
+          {
+            "image": "../../../assets/water-cycle.png",
+            "name": "consumo",
+            "type": "consumo",
+            "unit": "L",
+            "value": 120
+          },
+          {
+            "image": "../../../assets/down_red.png",
+            "name": "ahorro",
+            "type": "ahorro",
+            "unit": "L",
+            "value": 30
+          },
+          {
+            "image": "../../../assets/greenpoints.png",
+            "name": "puntos",
+            "type": "points",
+            "unit": "pts",
+            "value": 12
+          },
+          {
+            "image": "../../../assets/money.png",
+            "name": "costos",
+            "type": "cost",
+            "unit": "COP",
+            "value": 480
+          },
+          {
+            "image": "../../../assets/eco-badge.png",
+            "name": "eficiencia",
+            "type": "efficiency",
+            "unit": "%",
+            "value": 92
+          },
+          {
+            "image": "../../../assets/shield.png",
+            "name": "riesgo",
+            "type": "risk",
+            "unit": "",
+            "value": "bajo"
+          }
+        ],
+        "history": {
+          "2025-11-30": {
+            "ahorro": {
+              "image": "../../../assets/down_red.png",
+              "type": "ahorro",
+              "unit": "L",
+              "value": 30
+            },
+            "consumo": {
+              "image": "../../../assets/water-cycle.png",
+              "type": "consumo",
+              "unit": "L",
+              "value": 120
+            },
+            "costos": {
+              "image": "../../../assets/money.png",
+              "type": "cost",
+              "unit": "COP",
+              "value": 480
+            },
+            "eficiencia": {
+              "image": "../../../assets/eco-badge.png",
+              "type": "efficiency",
+              "unit": "%",
+              "value": 92
+            },
+            "leakDetected": false,
+            "puntos": {
+              "image": "../../../assets/greenpoints.png",
+              "type": "points",
+              "unit": "pts",
+              "value": 12
+            },
+            "riesgo": {
+              "image": "../../../assets/shield.png",
+              "type": "risk",
+              "unit": "",
+              "value": "bajo"
+            }
+          }
+        },
+        "predictions": {
+          "next24h": {
+            "confidence": 0.83,
+            "estimatedConsumption": 140,
+            "unit": "L"
+          },
+          "next30days": {
+            "confidence": 0.79,
+            "estimatedConsumption": 3580,
+            "estimatedCost": 15200,
+            "unit": "L",
+            "unitCost": "COP"
+          }
+        },
+        "summary": {
+          "color": "#2196F3",
+          "efficiencyScore": 92,
+          "estimatedCostUnit": "COP",
+          "estimatedMonthlyCost": 14500,
+          "icon": "💧",
+          "leakDetected": false,
+          "percentage": 70,
+          "period": "Hoy",
+          "riskLevel": "bajo",
+          "status": "excelente",
+          "title": "Agua",
+          "trend": "down",
+          "trendValue": "-20%",
+          "unit": "L",
+          "value": 120
+        }
+      }
+    }
+  },
+  "monitoring": {
+    "B001": {
+      "apt_1001": {
+        "energy": {
+          "areas": {
+            "bathroom": {
+              "dailyConsumption": [
+                {
+                  "consumption": 1,
+                  "date": "2024-12-14"
+                },
+                {
+                  "consumption": 1,
+                  "date": "2024-12-13"
+                },
+                {
+                  "consumption": 1,
+                  "date": "2024-12-12"
+                }
+              ],
+              "totalConsumption": 1
+            },
+            "bedroom": {
+              "dailyConsumption": [
+                {
+                  "consumption": 1,
+                  "date": "2024-12-14"
+                },
+                {
+                  "consumption": 1,
+                  "date": "2024-12-13"
+                },
+                {
+                  "consumption": 1,
+                  "date": "2024-12-12"
+                }
+              ],
+              "totalConsumption": 2
+            },
+            "kitchen": {
+              "dailyConsumption": [
+                {
+                  "consumption": 3,
+                  "date": "2024-12-14"
+                },
+                {
+                  "consumption": 4,
+                  "date": "2024-12-13"
+                },
+                {
+                  "consumption": 3,
+                  "date": "2024-12-12"
+                }
+              ],
+              "totalConsumption": 3
+            },
+            "livingRoom": {
+              "dailyConsumption": [
+                {
+                  "consumption": 5,
+                  "date": "2024-12-14"
+                },
+                {
+                  "consumption": 6,
+                  "date": "2024-12-13"
+                },
+                {
+                  "consumption": 5,
+                  "date": "2024-12-12"
+                }
+              ],
+              "totalConsumption": 8
+            },
+            "yard": {
+              "dailyConsumption": [
+                {
+                  "consumption": 1,
+                  "date": "2024-12-14"
+                },
+                {
+                  "consumption": 1,
+                  "date": "2024-12-13"
+                },
+                {
+                  "consumption": 1,
+                  "date": "2024-12-12"
+                }
+              ],
+              "totalConsumption": 1
+            }
+          },
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal",
+          "totalConsumption": [
+            {
+              "consumption": 12,
+              "date": "2024-12-14"
+            },
+            {
+              "consumption": 14,
+              "date": "2024-12-13"
+            },
+            {
+              "consumption": 15,
+              "date": "2024-12-12"
+            }
+          ]
+        },
+        "gas": {
+          "consumptionHistory": [
+            {
+              "consumption": 10,
+              "date": "2024-12-14"
+            },
+            {
+              "consumption": 12,
+              "date": "2024-12-13"
+            },
+            {
+              "consumption": 11,
+              "date": "2024-12-12"
+            }
+          ],
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal"
+        },
+        "humidity": {
+          "humidityHistory": [
+            {
+              "date": "2024-12-14",
+              "humidity": 50
+            },
+            {
+              "date": "2024-12-13",
+              "humidity": 55
+            },
+            {
+              "date": "2024-12-12",
+              "humidity": 52
+            }
+          ],
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal"
+        },
+        "water": {
+          "alerts": [
+            {
+              "date": "2024-12-14",
+              "message": "High water consumption detected in bathroom (Shower: 6L). Consider optimizing usage.",
+              "type": "highConsumption"
+            },
+            {
+              "date": "2024-12-13",
+              "message": "Water consumption is below average in laundry.",
+              "type": "lowConsumption"
+            }
+          ],
+          "areas": {
+            "bathroom": {
+              "dailyConsumption": [
+                {
+                  "date": "2024-12-14",
+                  "shower": 5,
+                  "toilet": 2,
+                  "washands": 1
+                },
+                {
+                  "date": "2024-12-13",
+                  "shower": 6,
+                  "toilet": 2,
+                  "washands": 1
+                },
+                {
+                  "date": "2024-12-12",
+                  "shower": 5,
+                  "toilet": 3,
+                  "washands": 1
+                }
+              ],
+              "totalConsumption": 8
+            },
+            "kitchen": {
+              "dailyConsumption": [
+                {
+                  "consumption": 3,
+                  "date": "2024-12-14"
+                },
+                {
+                  "consumption": 4,
+                  "date": "2024-12-13"
+                },
+                {
+                  "consumption": 3,
+                  "date": "2024-12-12"
+                }
+              ],
+              "totalConsumption": 3
+            },
+            "laundry": {
+              "dailyConsumption": [
+                {
+                  "date": "2024-12-14",
+                  "sink": 1,
+                  "washingMachine": 1
+                },
+                {
+                  "date": "2024-12-13",
+                  "sink": 1,
+                  "washingMachine": 1
+                },
+                {
+                  "date": "2024-12-12",
+                  "sink": 1,
+                  "washingMachine": 1
+                }
+              ],
+              "totalConsumption": 2
+            }
+          },
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal",
+          "totalConsumption": [
+            {
+              "consumption": 12,
+              "date": "2024-12-14"
+            },
+            {
+              "consumption": 14,
+              "date": "2024-12-13"
+            },
+            {
+              "consumption": 15,
+              "date": "2024-12-12"
+            }
+          ]
+        }
+      },
+      "apt_1002": {
+        "energy": {
+          "areas": {
+            "bathroom": {
+              "totalConsumption": 1
+            },
+            "bedroom": {
+              "totalConsumption": 2
+            },
+            "kitchen": {
+              "totalConsumption": 3
+            },
+            "livingRoom": {
+              "totalConsumption": 8
+            },
+            "yard": {
+              "totalConsumption": 1
+            }
+          },
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal",
+          "totalConsumption": [
+            {
+              "consumption": 12,
+              "date": "2024-12-14"
+            },
+            {
+              "consumption": 14,
+              "date": "2024-12-13"
+            },
+            {
+              "consumption": 15,
+              "date": "2024-12-12"
+            }
+          ]
+        },
+        "gas": {
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal"
+        },
+        "humidity": {
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal"
+        },
+        "water": {
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal",
+          "totalConsumption": [
+            {
+              "consumption": 12,
+              "date": "2024-12-14"
+            }
+          ]
+        }
+      },
+      "commercial_103": {
+        "energy": {
+          "lastChecked": "2024-12-15T01:30:31.431Z",
+          "status": "normal",
+          "totalConsumption": [
+            {
+              "consumption": 12,
+              "date": "2024-12-14"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "reviews": {
+    "review_1": {
+      "apartmentId": "apt_1001",
+      "badge": "🌱 Eco Warrior",
+      "buildingId": "B001",
+      "comment": "Vivir aquí me hizo más consciente del uso de la energía. ¡La automatización es mágica!",
+      "createdAt": "2025-01-15T10:30:00.000Z",
+      "points": 250,
+      "rating": 5,
+      "reviewId": "review_1",
+      "status": "pending",
+      "updatedAt": "2025-01-15T10:30:00.000Z",
+      "userId": "luzmarina",
+      "userName": "Luz Marina"
+    },
+    "review_2": {
+      "apartmentId": "apt_1002",
+      "badge": "🏠 Smart Home Master",
+      "buildingId": "B001",
+      "comment": "El diseño sostenible se siente en cada rincón. Silencio, luz natural y control total desde mi móvil.",
+      "createdAt": "2025-01-20T14:15:00.000Z",
+      "points": 180,
+      "rating": 4,
+      "reviewId": "review_2",
+      "status": "approved",
+      "updatedAt": "2025-01-20T14:15:00.000Z",
+      "userId": "gaelsolano",
+      "userName": "Gael Solano"
+    },
+    "review_3": {
+      "apartmentId": "apt_1003",
+      "badge": "⭐ Early Adopter",
+      "buildingId": "B001",
+      "comment": "Nunca imaginé que una casa pudiera adaptarse tanto a mis rutinas. ¡Una experiencia transformadora!",
+      "createdAt": "2025-02-01T09:45:00.000Z",
+      "points": 320,
+      "rating": 5,
+      "reviewId": "review_3",
+      "status": "approved",
+      "updatedAt": "2025-02-01T09:45:00.000Z",
+      "userId": "naiaraviento",
+      "userName": "Naiara Viento"
+    },
+    "review_4": {
+      "apartmentId": "apt_1004",
+      "badge": "💚 Sustainability Champion",
+      "buildingId": "B001",
+      "comment": "El ahorro energético es evidente. Además, es hermosa y funcional. Ideal para una vida simple y consciente.",
+      "createdAt": "2025-02-10T16:20:00.000Z",
+      "points": 200,
+      "rating": 4,
+      "reviewId": "review_4",
+      "status": "approved",
+      "updatedAt": "2025-02-10T16:20:00.000Z",
+      "userId": "brunotierra",
+      "userName": "Bruno Tierra"
+    }
+  },
+  "revisions": {
+    "-OjS4U-YK129FZ4N8obQ": {
+      "createdAt": "2026-01-20T20:26:01.191Z",
+      "documents": {
+        "bankStatements": {
+          "uploaded": false,
+          "verified": false
+        },
+        "guarantorIdCard": {
+          "uploaded": false,
+          "verified": false
+        },
+        "idCard": {
+          "uploaded": false,
+          "verified": false
+        },
+        "payStubs": {
+          "uploaded": false,
+          "verified": false
+        }
+      },
+      "employmentInfo": {
+        "employmentLetter": "asdasdas",
+        "monthlyIncome": "5000000",
+        "occupation": "Ciencias y Tecnologia"
+      },
+      "financialInfo": {
+        "accountType": "Ahorros",
+        "bankName": "Bancolombia"
+      },
+      "guarantor": {
+        "documentId": "1112042942",
+        "email": "juanariza@gmail.com",
+        "name": "Juan ariza",
+        "phone": "3172426080",
+        "relationship": "Hijo te amo",
+        "verified": false
+      },
+      "metadata": {
+        "source": "web_app",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+      },
+      "personalInfo": {
+        "documentId": "901475377",
+        "email": "ggroupar@gmail.com",
+        "fullName": "Groupar Groupar",
+        "phone": "3172426080"
+      },
+      "revisionId": "-OjS4U-YK129FZ4N8obQ",
+      "status": "pending",
+      "updatedAt": "2026-01-20T20:26:01.191Z",
+      "userId": "ggroupar"
+    },
+    "B001": {
+      "apt_1001": {
+        "-OQ0OTj9RleDuI_emMah": {
+          "date": "2025-05-11T22:10:04.233Z",
+          "documentId": "",
+          "email": "igorariza@gmail.com",
+          "employmentLetter": "",
+          "nombre": "Igor Ariza",
+          "phoneNumber": ""
+        }
+      },
+      "apt_1002": {
+        "-OR4emAbTvVC31Qp45Jq": {
+          "date": "2025-05-25T04:19:51.325Z",
+          "documentId": "",
+          "email": "usertest@groupar.co",
+          "employmentLetter": "",
+          "nombre": "usertest@groupar.co",
+          "phoneNumber": ""
+        }
+      },
+      "commercial_103": {
+        "-OQ0QrKYqFyaOiOlnqlj": {
+          "date": "2025-05-11T22:20:29.142Z",
+          "documentId": "",
+          "email": "igorariza@gmail.com",
+          "employmentLetter": "",
+          "nombre": "Igor Ariza",
+          "phoneNumber": ""
+        }
+      }
+    }
+  },
+  "routines": {
+    "global": {
+      "outOfHome": {
+        "endTime": "22:00:00",
+        "frequency": 15,
+        "lastChecked": "2024-12-15T01:30:31.431Z",
+        "name": "outOfHome",
+        "startTime": "07:00:00",
+        "tasks": {
+          "closeCurtains": {
+            "devices": {
+              "curtainControlLivingRoom": {
+                "action": "close",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:30:00Z",
+                "name": "curtainControlLivingRoom",
+                "parameters": {
+                  "location": "Living Room",
+                  "model": "FC28"
+                },
+                "pins": {
+                  "pin1": "D6",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "actuator"
+              }
+            },
+            "name": "closeCurtains"
+          },
+          "presenceDetection": {
+            "devices": {
+              "doorSensorMain": {
+                "action": "detectOpen",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:10:00Z",
+                "name": "doorSensorMain",
+                "parameters": {
+                  "location": "Main Door",
+                  "model": "DHT11"
+                },
+                "pins": {
+                  "pin1": "D2",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "sensor"
+              },
+              "motionSensorBedroom": {
+                "action": "detectMotion",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:05:00Z",
+                "name": "motionSensorBedroom",
+                "parameters": {
+                  "location": "Bedroom",
+                  "model": "PIR"
+                },
+                "pins": {
+                  "pin1": "D1",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "sensor"
+              },
+              "motionSensorLivingRoom": {
+                "action": "detectMotion",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:00:00Z",
+                "name": "motionSensorLivingRoom",
+                "parameters": {
+                  "location": "Living Room",
+                  "model": "PIR"
+                },
+                "pins": {
+                  "pin1": "D0",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "sensor"
+              }
+            },
+            "name": "presenceDetection"
+          },
+          "setSecurityMode": {
+            "devices": {
+              "securityModeControl": {
+                "action": "enable",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:35:00Z",
+                "name": "securityModeControl",
+                "parameters": {
+                  "location": "Main Panel",
+                  "model": "SecurityMode"
+                },
+                "pins": {
+                  "pin1": "D7",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "actuator"
+              }
+            },
+            "name": "setSecurityMode"
+          },
+          "turnOffAllLights": {
+            "devices": {
+              "lightControlBedroom": {
+                "action": "turnOff",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:20:00Z",
+                "name": "lightControlBedroom",
+                "parameters": {
+                  "location": "Bedroom",
+                  "model": "LightControl"
+                },
+                "pins": {
+                  "pin1": "D4",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "actuator"
+              },
+              "lightControlKitchen": {
+                "action": "turnOff",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:25:00Z",
+                "name": "lightControlKitchen",
+                "parameters": {
+                  "location": "Kitchen",
+                  "model": "LightControl"
+                },
+                "pins": {
+                  "pin1": "D5",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "actuator"
+              },
+              "lightControlLivingRoom": {
+                "action": "turnOff",
+                "digital": true,
+                "lastValidation": "2025-02-11T09:15:00Z",
+                "name": "lightControlLivingRoom",
+                "parameters": {
+                  "location": "Living Room",
+                  "model": "LightControl"
+                },
+                "pins": {
+                  "pin1": "D3",
+                  "pin2": "null"
+                },
+                "status": "active",
+                "type": "actuator"
+              }
+            },
+            "name": "turnOffAllLightsTask"
+          }
+        }
+      }
+    }
+  },
+  "users": {
+    "ggroupar": {
+      "buildingId": "B001",
+      "canAccessCommonAreas": false,
+      "canAccessOtherApartment": false,
+      "createdAt": "2026-01-19T20:53:50.936-05:00",
+      "cybersecurity": {
+        "lastPasswordChange": "2026-01-19T20:53:50.936-05:00",
+        "twoFactorAuthEnabled": false
+      },
+      "email": "ggroupar@gmail.com",
+      "gamification": {
+        "level": 1,
+        "nextLevel": {
+          "level": 2,
+          "points": 500
+        },
+        "points": 0,
+        "progress": 0
+      },
+      "lastLogin": "2026-01-20T15:44:01.026-05:00",
+      "name": "Groupar Groupar",
+      "notifications": {
+        "email": true,
+        "push": false,
+        "sms": false
+      },
+      "role": "resident",
+      "state": "active",
+      "userId": "ggroupar",
+      "waitlistApplication": {
+        "appliedAt": "2026-01-20T20:26:01.191Z",
+        "revisionId": "-OjS4U-YK129FZ4N8obQ",
+        "status": "pending"
+      }
+    },
+    "igorariza": {
+      "apartments": {
+        "apt_1001": {
+          "accessLevel": "owner",
+          "apartmentId": "apt_1001",
+          "role": "owner"
+        }
+      },
+      "buildingId": "B001",
+      "canAccessCommonAreas": true,
+      "canAccessOtherApartment": false,
+      "cybersecurity": {
+        "lastPasswordChange": "2025-02-24T01:55:39.797Z",
+        "twoFactorAuthEnabled": false
+      },
+      "devices": {
+        "F8_9C_87_3D_3C_77": {
+          "accessLevel": "owner",
+          "accessZones": {
+            "apt_1001": true,
+            "common": true
+          },
+          "addedDate": "2025-12-19T03:25:25.626Z",
+          "connectionType": "BLE",
+          "createdAt": "2025-12-19T03:25:25.626Z",
+          "deviceId": "F89C873D3C77",
+          "deviceName": "Igor Brainer's S23 Ultra",
+          "deviceType": "Android",
+          "geofenceEnabled": false,
+          "isActive": true,
+          "lastSeen": "2026-01-16T00:21:01.361Z",
+          "macAddress": "F8:9C:87:3D:3C:77",
+          "notificationsEnabled": true,
+          "proximityLevel": "far",
+          "securityLevel": "high",
+          "status": "online",
+          "trustedDevice": true,
+          "uniqueId": "f89c873d3c77e731",
+          "updatedAt": "2026-01-16T00:21:01.361Z",
+          "version": 1
+        }
+      },
+      "documentId": "1112464415",
+      "email": "igorariza@gmail.com",
+      "gamification": {
+        "level": 3,
+        "nextLevel": {
+          "level": 4,
+          "points": 1125
+        },
+        "points": 1060,
+        "progress": 94.22222222222221
+      },
+      "lastLogin": "2026-01-20T15:43:48.899-05:00",
+      "name": "Igor Ariza",
+      "notifications": {
+        "email": false,
+        "push": false,
+        "sms": false
+      },
+      "phone": "3142749083",
+      "primaryApartment": "apt_1001",
+      "role": "owner",
+      "state": "active",
+      "userId": "igorariza"
+    },
+    "usertest": {
+      "apartments": {
+        "apt_1002": {
+          "accessLevel": "resident",
+          "apartmentId": "apt_1002",
+          "role": "resident"
+        }
+      },
+      "buildingId": "B001",
+      "canAccessCommonAreas": true,
+      "canAccessOtherApartment": false,
+      "cybersecurity": {
+        "lastPasswordChange": "2025-02-24T01:55:39.797Z",
+        "twoFactorAuthEnabled": false
+      },
+      "devices": {
+        "BB_CC_DD_EE_FF_01": {
+          "accessLevel": "resident",
+          "accessZones": {
+            "apt_1002": true,
+            "common": true
+          },
+          "addedDate": "2025-02-11T10:00:00Z",
+          "deviceName": "Samsung Galaxy - UserTest",
+          "deviceType": "smartphone",
+          "isActive": true,
+          "lastSeen": "2025-02-11T12:00:00Z",
+          "macAddress": "BB:CC:DD:EE:FF:01",
+          "ownerName": "User Test",
+          "proximityLevel": "near"
+        }
+      },
+      "documentId": "1112464415",
+      "email": "usertest@groupar.co",
+      "gamification": {
+        "level": 1,
+        "nextLevel": {
+          "level": 2,
+          "points": 500
+        },
+        "points": 1000,
+        "progress": 0
+      },
+      "name": "User Test",
+      "notifications": {
+        "email": true,
+        "push": true,
+        "sms": false
+      },
+      "phone": "3142749083",
+      "primaryApartment": "apt_1002",
+      "role": "resident",
+      "state": "active",
+      "userId": "usertest"
+    },
+    "yoinerchilito542": {
+      "buildingId": "B001",
+      "canAccessCommonAreas": false,
+      "canAccessOtherApartment": false,
+      "createdAt": "2026-01-20T10:13:13.895-05:00",
+      "cybersecurity": {
+        "lastPasswordChange": "2026-01-20T10:13:13.895-05:00",
+        "twoFactorAuthEnabled": false
+      },
+      "email": "yoinerchilito542@gmail.com",
+      "gamification": {
+        "level": 1,
+        "nextLevel": {
+          "level": 2,
+          "points": 500
+        },
+        "points": 0,
+        "progress": 0
+      },
+      "lastLogin": "2026-01-20T12:10:57.091-05:00",
+      "name": "yoiner alexander chilito samboni",
+      "notifications": {
+        "email": true,
+        "push": false,
+        "sms": false
+      },
+      "role": "resident",
+      "state": "inactive",
+      "userId": "yoinerchilito542"
+    }
+  }
+}

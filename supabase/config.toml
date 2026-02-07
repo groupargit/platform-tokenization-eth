@@ -1,0 +1,8 @@
+project_id = "yvcspsbgphllchghpakt"
+
+# Permite que OPTIONS (preflight) llegue a la función sin JWT; evita CORS 401 en producción
+[functions.circle-proxy]
+verify_jwt = false
+
+[functions.home-assistant-proxy]
+verify_jwt = false

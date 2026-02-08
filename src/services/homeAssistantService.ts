@@ -8,6 +8,18 @@ const isDevelopment = import.meta.env.DEV;
 const USE_EDGE_FUNCTION = !isDevelopment && !!SUPABASE_URL;
 const USE_VITE_PROXY = isDevelopment;
 
+function getHeaders(): HeadersInit {
+  const headers: HeadersInit = { 'Content-Type': 'application/json' };
+  if (USE_VITE_PROXY) {
+    if (HOME_ASSISTANT_TOKEN) headers['Authorization'] = `Bearer ${HOME_ASSISTANT_TOKEN}`;
+    headers['ngrok-skip-browser-warning'] = 'true';
+  } else if (USE_EDGE_FUNCTION && SUPABASE_ANON_KEY) {
+    headers['Authorization'] = `Bearer ${SUPABASE_ANON_KEY}`;
+    headers['apikey'] = SUPABASE_ANON_KEY;
+  }
+  return headers;
+}
+
 const buildApiUrl = (endpoint: string): string => {
   if (USE_EDGE_FUNCTION) {
     const cleanEndpoint = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
@@ -59,23 +71,9 @@ export async function getEntityState(entityId: string): Promise<HomeAssistantSta
 
   try {
     const url = buildApiUrl(`/states/${entityId}`);
-    const headers: HeadersInit = {
-      'Content-Type': 'application/json',
-    };
-
-    if (USE_VITE_PROXY) {
-      if (HOME_ASSISTANT_TOKEN) {
-        headers['Authorization'] = `Bearer ${HOME_ASSISTANT_TOKEN}`;
-      }
-      headers['ngrok-skip-browser-warning'] = 'true';
-    } else if (USE_EDGE_FUNCTION && SUPABASE_ANON_KEY) {
-      headers['Authorization'] = `Bearer ${SUPABASE_ANON_KEY}`;
-      headers['apikey'] = SUPABASE_ANON_KEY;
-    }
-
     const response = await fetch(url, {
       method: 'GET',
-      headers,
+      headers: getHeaders(),
       mode: USE_VITE_PROXY ? 'same-origin' : 'cors',
       signal: AbortSignal.timeout(30000),
     });
@@ -167,25 +165,11 @@ export async function callService(
 
   try {
     const url = buildApiUrl(`/services/${domain}/${service}`);
-    const headers: HeadersInit = {
-      'Content-Type': 'application/json',
-    };
-
-    if (USE_VITE_PROXY) {
-      if (HOME_ASSISTANT_TOKEN) {
-        headers['Authorization'] = `Bearer ${HOME_ASSISTANT_TOKEN}`;
-      }
-      headers['ngrok-skip-browser-warning'] = 'true';
-    } else if (USE_EDGE_FUNCTION && SUPABASE_ANON_KEY) {
-      headers['Authorization'] = `Bearer ${SUPABASE_ANON_KEY}`;
-      headers['apikey'] = SUPABASE_ANON_KEY;
-    }
-
     const body = JSON.stringify(serviceData || {});
 
     const response = await fetch(url, {
       method: 'POST',
-      headers,
+      headers: getHeaders(),
       body,
       mode: USE_VITE_PROXY ? 'same-origin' : 'cors',
     });
@@ -336,23 +320,9 @@ export async function checkHomeAssistantConnection(): Promise<boolean> {
   try {
     const url = buildApiUrl('/config');
 
-    const headers: HeadersInit = {
-      'Content-Type': 'application/json',
-    };
-
-    if (USE_VITE_PROXY) {
-      headers['ngrok-skip-browser-warning'] = 'true';
-      if (HOME_ASSISTANT_TOKEN) {
-        headers['Authorization'] = `Bearer ${HOME_ASSISTANT_TOKEN}`;
-      }
-    } else if (USE_EDGE_FUNCTION && SUPABASE_ANON_KEY) {
-      headers['Authorization'] = `Bearer ${SUPABASE_ANON_KEY}`;
-      headers['apikey'] = SUPABASE_ANON_KEY;
-    }
-
     const response = await fetch(url, {
       method: 'GET',
-      headers,
+      headers: getHeaders(),
       mode: USE_VITE_PROXY ? 'same-origin' : 'cors',
     });
 
@@ -380,23 +350,9 @@ export async function listLockEntities(): Promise<string[]> {
   try {
     const url = buildApiUrl('/states');
     
-    const headers: HeadersInit = {
-      'Content-Type': 'application/json',
-    };
-
-    if (USE_VITE_PROXY) {
-      if (HOME_ASSISTANT_TOKEN) {
-        headers['Authorization'] = `Bearer ${HOME_ASSISTANT_TOKEN}`;
-      }
-      headers['ngrok-skip-browser-warning'] = 'true';
-    } else if (USE_EDGE_FUNCTION && SUPABASE_ANON_KEY) {
-      headers['Authorization'] = `Bearer ${SUPABASE_ANON_KEY}`;
-      headers['apikey'] = SUPABASE_ANON_KEY;
-    }
-
     const response = await fetch(url, {
       method: 'GET',
-      headers,
+      headers: getHeaders(),
       mode: USE_VITE_PROXY ? 'same-origin' : 'cors',
     });
 

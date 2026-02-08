@@ -20,15 +20,16 @@ import { useLanguage } from "@/i18n";
 
 function useGreeting() {
   const { t } = useLanguage();
-  const hour = new Date().getHours();
-  
-  if (hour >= 5 && hour < 12) {
-    return { text: t.greetings.morning, icon: <Sunrise className="w-5 h-5 text-accent" /> };
-  } else if (hour >= 12 && hour < 19) {
-    return { text: t.greetings.afternoon, icon: <Sun className="w-5 h-5 text-accent" /> };
-  } else {
+  return useMemo(() => {
+    const hour = new Date().getHours();
+    if (hour >= 5 && hour < 12) {
+      return { text: t.greetings.morning, icon: <Sunrise className="w-5 h-5 text-accent" /> };
+    }
+    if (hour >= 12 && hour < 19) {
+      return { text: t.greetings.afternoon, icon: <Sun className="w-5 h-5 text-accent" /> };
+    }
     return { text: t.greetings.evening, icon: <Moon className="w-5 h-5 text-primary" /> };
-  }
+  }, [t.greetings.morning, t.greetings.afternoon, t.greetings.evening]);
 }
 
 export default function Home() {
@@ -144,44 +145,28 @@ export default function Home() {
 
   const displayedApartments = useMemo(() => {
     if (!apartments.length) return [];
-    
-    if (isAuthenticated) {
-      const hasUserData = syncedFirebaseUser || firebaseUser;
-      
-      if (hasUserData) {
-      } else if (userLoading || (userSyncLoading && !syncedFirebaseUser)) {
-        return [];
-      } else {
-      }
-    }
-    
-    
-    if (isAuthenticated && userHasApartments) {
-      if (userApartments.length > 0) {
-        return userApartments;
-      }
-      return [];
-    }
-    
-    if (isAuthenticated && !userHasApartments) {
-      return availableApartments;
-    }
-    
+    const hasUserData = syncedFirebaseUser || firebaseUser;
+    if (isAuthenticated && (userLoading || (userSyncLoading && !syncedFirebaseUser))) return [];
+    if (isAuthenticated && userHasApartments) return userApartments.length > 0 ? userApartments : [];
     return availableApartments;
-  }, [apartments, isAuthenticated, userHasApartments, userApartments, availableApartments, currentFirebaseUser, userLoading, userSyncLoading, firebaseUser, syncedFirebaseUser, userId]);
+  }, [apartments, isAuthenticated, userHasApartments, userApartments, availableApartments, userLoading, userSyncLoading, syncedFirebaseUser, firebaseUser]);
 
-  const formattedApartments = displayedApartments.map(apt => ({
-    id: apt.apartmentId,
-    name: apt.name,
-    concept: apt.concept,
-    colorCode: apt.colorCode,
-    price: apt.price,
-    type: apt.type,
-    available: apt.available,
-    description: apt.description,
-    features: apt.features,
-    images: apt.images,
-  }));
+  const formattedApartments = useMemo(
+    () =>
+      displayedApartments.map((apt) => ({
+        id: apt.apartmentId,
+        name: apt.name,
+        concept: apt.concept,
+        colorCode: apt.colorCode,
+        price: apt.price,
+        type: apt.type,
+        available: apt.available,
+        description: apt.description,
+        features: apt.features,
+        images: apt.images,
+      })),
+    [displayedApartments]
+  );
 
   const handleRequestStudy = (apartment: FirebaseApartment) => {
     setSelectedApartmentForStudy(apartment);

@@ -335,9 +335,9 @@ export function useUserDevices(
 
   const quickAccessDevices = useMemo(() => {
     return categorizedDevices.filter(
-      device => 
+      (device) =>
         (device.category === 'lock' || device.category === 'motor') &&
-        device.location.zone === 'common' &&
+        (device.location?.zone === 'common' || device.apartmentContext?.zone === 'common') &&
         device.status === 'online'
     );
   }, [categorizedDevices]);

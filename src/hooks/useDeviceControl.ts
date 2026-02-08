@@ -160,16 +160,11 @@ export function useDeviceControl(options: UseDeviceControlOptions): UseDeviceCon
     }
   }, [entityId]);
   
-  // Aggressive refresh after action
+  // Single delayed refresh after action (was 3x: 200, 600, 1200ms)
   const refreshAfterAction = useCallback(() => {
-    const delays = [200, 600, 1200];
-    delays.forEach(delay => {
-      setTimeout(() => {
-        if (isMountedRef.current && !actionInProgressRef.current) {
-          refresh();
-        }
-      }, delay);
-    });
+    setTimeout(() => {
+      if (isMountedRef.current && !actionInProgressRef.current) refresh();
+    }, 400);
   }, [refresh]);
   
   // ============================================================================
